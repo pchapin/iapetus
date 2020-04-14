@@ -1,0 +1,155 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="../AOML/sky.xsl"?>
+
+<!-- FILE   : sky-2016.xml
+     AUTHOR : (C) Copyright 2016 by Peter C. Chapin
+     SUBJECT: Sky condition observations for 2016 -->
+
+<observation-set xmlns="http://vortex.cis.vtc.edu/xml/AOML_0.0"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://vortex.cis.vtc.edu/xml/AOML_0.0 ../AOML/AOML.xsd">
+
+  <location>
+    <value>
+      <lat-long-alt>+44.46-073.11</lat-long-alt>
+    </value>
+    <notes>
+      <xhtml:p>Williston Vermont, USA</xhtml:p>
+    </notes>
+  </location>
+  <observer>Peter C. Chapin</observer>
+  <notes>
+    <xhtml:p>The temperature and humidity measurements shown here were all made with a La Crosse
+      WS-7078SUF weather station.</xhtml:p>
+  </notes>
+
+  <observation>
+    <localdatetime type="LST" resolution="PT05M">
+      <ISO>2016-01-01T19:10:00</ISO>
+    </localdatetime>
+    <skyconditions>
+      <weather>
+        <temperature>
+          <value units="F">32.9</value>
+        </temperature>
+        <humidity>
+          <value units="%">60</value>
+        </humidity>
+        <notes>
+          <xhtml:p>The sky mostly covered with clouds but there are a few open
+            patches.</xhtml:p>
+        </notes>
+      </weather>
+      <notes>
+        <xhtml:p>Light pollution degrades the open patches to the point where only the brightest
+          stars are visible. The moon could probably be observed if it was up (it
+          isn't)</xhtml:p>
+      </notes>
+      <rating>1</rating>
+    </skyconditions>
+  </observation>
+
+  <observation>
+    <localdatetime type="LST" resolution="PT05M">
+      <ISO>2016-01-03T20:30:00</ISO>
+    </localdatetime>
+    <skyconditions>
+      <weather>
+        <temperature>
+          <value units="F">24.6</value>
+        </temperature>
+        <humidity>
+          <value units="%">76</value>
+        </humidity>
+        <notes>
+          <xhtml:p>The sky is completely cloudy. It is lightly snowing.</xhtml:p>
+        </notes>
+      </weather>
+      <notes>
+        <xhtml:p>No objects are visible.</xhtml:p>
+      </notes>
+      <rating>0</rating>
+    </skyconditions>
+  </observation>
+
+  <observation>
+    <localdatetime type="LST" resolution="PT05M">
+      <ISO>2016-01-04T19:25:00</ISO>
+    </localdatetime>
+    <skyconditions>
+      <weather>
+        <temperature>
+          <value units="F">6.6</value>
+        </temperature>
+        <humidity>
+          <value units="%">67</value>
+        </humidity>
+        <notes>
+          <xhtml:p>The sky is partly cloudy. I estimate only about 30% of the sky is
+            visible.</xhtml:p>
+        </notes>
+      </weather>
+      <notes>
+        <xhtml:p>The bright stars are visible in the clear areas. The basic outlines of some
+          constellations can be seen. However, there appears to be some haze even in the clear
+          regions that, together with the light pollution, inhibit observing. It's also quite
+          cold tonight.</xhtml:p>
+      </notes>
+      <rating>1.5</rating>
+    </skyconditions>
+  </observation>
+
+  <observation>
+    <localdatetime type="LST" resolution="PT05M">
+      <ISO>2016-01-08T18:45:00</ISO>
+    </localdatetime>
+    <skyconditions>
+      <weather>
+        <temperature>
+          <value units="F">33.6</value>
+        </temperature>
+        <humidity>
+          <value units="%">73</value>
+        </humidity>
+        <notes>
+          <xhtml:p>The sky is completely cloudy.</xhtml:p>
+        </notes>
+      </weather>
+      <notes>
+        <xhtml:p>Only Capella is barely visible. No other stars or objects are
+          visible.</xhtml:p>
+      </notes>
+      <rating>0</rating>
+    </skyconditions>
+  </observation>
+
+  <observation>
+    <localdatetime type="LST" resolution="PT05M">
+      <ISO>2016-01-13T20:00:00</ISO>
+    </localdatetime>
+    <skyconditions>
+      <weather>
+        <temperature>
+          <value units="F">17.0</value>
+        </temperature>
+        <humidity>
+          <value units="%">56</value>
+        </humidity>
+        <notes>
+          <xhtml:p>The sky is mostly clear with some clouds in the south and southwest. A thin
+            haze partially obscured the north, but only just above the horizon.</xhtml:p>
+        </notes>
+      </weather>
+      <notes>
+        <xhtml:p>Various classes of objects visible, including reasonable deep sky observing
+          over most of the sky. The thin waxing crescent moon is not a significant problem (and,
+          anyway, was partly covered by clouds). The general light pollution of my location
+          prevented a higher rating than would be expected given the weather
+          conditions.</xhtml:p>
+      </notes>
+      <rating>3</rating>
+    </skyconditions>
+  </observation>
+
+</observation-set>

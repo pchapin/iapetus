@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="20.1">
+    <meta>
+        <filters directoryPatterns="" filePatterns="" positiveFilePatterns="" showHiddenFiles="false"/>
+        <options/>
+    </meta>
+    <projectTree name="Observations.xpr">
+        <folder name="AOML">
+            <file name="../AOML/AEML.xsd"/>
+            <file name="../AOML/AEML.xsl"/>
+            <file name="../AOML/AOML.ent"/>
+            <file name="../AOML/AOML.xsd"/>
+            <file name="../AOML/AOML.xsl"/>
+            <file name="../AOML/default.css"/>
+            <file name="../AOML/LibObject.xsd"/>
+            <file name="../AOML/LibSky.xsd"/>
+            <file name="../AOML/LibType.xsd"/>
+            <file name="../AOML/sample-AE.xml"/>
+            <file name="../AOML/sample-AO.xml"/>
+            <file name="../AOML/sample-instrument.xml"/>
+            <file name="../AOML/sample-sky.xml"/>
+            <file name="../AOML/sky.xsl"/>
+        </folder>
+        <folder name="XHTML">
+            <file name="1997.xht"/>
+            <file name="1998.xht"/>
+            <file name="1999.xht"/>
+            <file name="../AOML/AENS-requirements.xht"/>
+            <file name="check1.xht"/>
+            <file name="check2.xht"/>
+            <file name="doubles.xht"/>
+            <file name="ds-codes.xht"/>
+            <file name="hale-bopp.xht"/>
+            <file name="index.html"/>
+            <file name="leonids.xht"/>
+            <file name="links.xht"/>
+            <file name="messier.xht"/>
+            <file name="moon.xht"/>
+            <file name="nakedeye.xht"/>
+            <file name="ngc.xht"/>
+            <file name="radio.xht"/>
+        </folder>
+        <file name="AE-2014-09.xml"/>
+        <file name="AO-1996-12-08.xml"/>
+        <file name="AO-2001-11-07.xml"/>
+        <file name="AO-2002-08-20.xml"/>
+        <file name="AO-2002-08-21.xml"/>
+        <file name="AO-2002-08-31.xml"/>
+        <file name="AO-2002-10-20.xml"/>
+        <file name="AO-2002-11-19.xml"/>
+        <file name="AO-2003-01-14.xml"/>
+        <file name="AO-2003-05-20.xml"/>
+        <file name="AO-2003-06-16.xml"/>
+        <file name="AO-2003-06-17.xml"/>
+        <file name="AO-2003-06-28.xml"/>
+        <file name="AO-2003-06-29.xml"/>
+        <file name="AO-2003-07-02.xml"/>
+        <file name="AO-2003-07-10.xml"/>
+        <file name="AO-2008-10-04.xml"/>
+        <file name="default.css"/>
+        <file name="log-2019.xml"/>
+        <file name="sky-2003.xml"/>
+        <file name="sky-2004.xml"/>
+        <file name="sky-2005.xml"/>
+        <file name="sky-2006.xml"/>
+        <file name="sky-2007.xml"/>
+        <file name="sky-2008.xml"/>
+        <file name="sky-2009.xml"/>
+        <file name="sky-2010.xml"/>
+        <file name="sky-2016.xml"/>
+        <file name="sky-2019.xml"/>
+        <file name="var-W-Her-2003.xml"/>
+        <file name="var-X-Cyg-2003.xml"/>
+        <file name="var-X-Cyg-2005.xml"/>
+    </projectTree>
+</project>

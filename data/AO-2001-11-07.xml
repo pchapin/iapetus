@@ -1,0 +1,71 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="../AOML/AOML.xsl"?>
+
+<observation-set xmlns="http://vortex.cis.vtc.edu/xml/AOML_0.0"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://vortex.cis.vtc.edu/xml/AOML_0.0 ../AOML/AOML.xsd">
+
+  <datetime>
+    <ISO>2001-11-07T21:00:00-05:00</ISO>
+  </datetime>
+  <location>
+    <value>
+      <lat-long-alt>+43.00-072.50+300</lat-long-alt>
+    </value>
+    <notes>
+      <xhtml:p>US-Vermont-Tunbridge</xhtml:p>
+    </notes>
+  </location>
+  <observer>Peter C. Chapin</observer>
+  <equipment>
+    <notes>
+      <xhtml:p>7x50 binoculars</xhtml:p>
+    </notes>
+  </equipment>
+  <notes>
+    <xhtml:p>Tonight was another beautiful night. I went out with my 7x50 binoculars to look
+      around at about 9:00pm EST. The sky was perfectly clear and dark. The moon, which was out
+      last week had not yet risen. Jupiter was not yet up either although Saturn was.</xhtml:p>
+
+    <xhtml:p>M-31 in And was easily visible to the naked eye (as usual). In the binoculars it
+      looked striking. M-33 in Tri was also easy to see in the binoculars and quite interesting
+      looking. I could almost imagine myself seeing some structure. I noticed that there were a
+      few stars "involved" with the galaxy and that added considerable interest. I tried to see
+      M-33 with my naked eye but I was unable to make it out. I did, however, see the relatively
+      bright star just to the ESE of the galaxy. According to my AAVSO atlas that star is
+      magnitude 6.0.</xhtml:p>
+
+    <xhtml:p>NGC-752 in And (not far from the Tri border) is quite a nice sight in binoculars.
+      It also appeared to be visible to the naked eye. However, the cluster is near an unrelated
+      grouping of relatively bright stars and those stars might have caused the cluster to
+      appear brighter than it actually is.</xhtml:p>
+
+    <xhtml:p>I scanned around in Per and easily saw NGC-1528, an open cluster in the Eastern arm
+      of the constellation. It looked like it would be an impressive site in a telescope. I also
+      went searching for NGC-1245 in Per, not far from Alpha. I did notice a faint, fuzzy, fan
+      shaped cloud that seemed to be attached to a moderately bright star. I notice on my Sky
+      Atlas 2000 that I was looking in exactly the right location so I think it is fair to say
+      that I saw the cluster. However, it was not very interesting in the binoculars.</xhtml:p>
+
+    <xhtml:p>I attempted to see M-1 (the Crab Nebula) in Tau as part of my effort to observe as
+      many Messier objects as possible with binoculars. I was definitely unsuccessful. I did
+      observe Saturn a bit. The planet was too small to show any detail in the binoculars, but I
+      noticed that it is quite near to the cluster NGC-1647. The view was very pleasing.
+      NGC-1647 is a nice binocular object all by itself and having Saturn so close by added a
+      lot of interest.</xhtml:p>
+
+    <xhtml:p>I spent some time scanning around in Aur. I saw some of the same objects I saw
+      during my last session (<xhtml:a href="2001-10-28.xml">2001-10-28</xhtml:a>), but the
+      moonless sky made them seem considerably more impressive: M-37, M-36, and M-38 were all
+      easy. I saw a small fuzzy blob that I'm fairly sure was NGC-1907 (near M-38). I also
+      spotted the small cluster NGC-1778 in the binoculars... but with some difficulty.</xhtml:p>
+
+    <xhtml:p>To the south of M-38 there is a significant association of stars that looks in the
+      binoculars just like a cluster. However, it doesn't appear to be marked as such on any of
+      my charts. The cluster NGC-1893 is shown in the area on Sky Atlas 2000 but based on what
+      the atlas shows, it seems like it would be too small to explain what I saw in the sky.
+      I'll have to inspect this area with a telescope at the next opportunity.</xhtml:p>
+  </notes>
+
+</observation-set>

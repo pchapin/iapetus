@@ -1,0 +1,116 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="../AOML/AOML.xsl"?>
+
+<observation-set xmlns="http://vortex.cis.vtc.edu/xml/AOML_0.0"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://vortex.cis.vtc.edu/xml/AOML_0.0 ../AOML/AOML.xsd">
+
+  <location>
+    <value>
+      <lat-long-alt>+43.00-072.50+300</lat-long-alt>
+    </value>
+    <notes>
+      <xhtml:p>US-Vermont-Tunbridge</xhtml:p>
+    </notes>
+  </location>
+  <observer>Peter C. Chapin</observer>
+  <equipment>
+    <notes>
+      <xhtml:p>Unless otherwise stated, these observations were all made with my Celestron 10x60
+        binoculars.</xhtml:p>
+    </notes>
+  </equipment>
+  <object>
+    <name>X Cyg</name>
+    <id catalog="AAVSO" id="2039+35"/>
+    <type>star/variable</type>
+    <constellation>Cyg</constellation>
+  </object>
+  <notes>
+    <xhtml:p>This variable is a Cephid. It varies relatively quickly so that ideally
+      observations should be made on a daily basis. However, this variable has the advantage of
+      being fairly bright. I am able to follow its entire range and see all of its comparison
+      stars readily in the binoculars. Thus I can make observations of this object quickly even
+      on nights when I don't bring my telescope out.</xhtml:p>
+
+    <xhtml:p>There aren't enough observations in this observation set to produce a reasonable
+      light curve. I will try again another year. (Producing a reasonable light curve for a
+      variable such as this one seems like a good goal for a novice variable star
+    observer.)</xhtml:p>
+  </notes>
+
+  <observation>
+    <datetime resolution="PT10M">
+      <ISO>2003-07-02T03:30:00Z</ISO>
+    </datetime>
+    <notes>
+      <xhtml:p>The variable looks very similar to, and perhaps a bit fainter than, the magnitude
+        6.6 comparison star. The magnitude 6.5 and 6.4 comparison stars do seem slightly
+        brighter. The magnitude 6.2 and 5.9 comparison stars are significantly brighter.
+        However, the 6.9 comparison star seems somewhat fainter. To summarize, the variable
+        appears to be between the 6.6 and 6.9 stars, closer to the 6.6 end. I'm recording my
+        observed magnitude at <xhtml:b>6.7</xhtml:b>.</xhtml:p>
+    </notes>
+  </observation>
+
+  <observation>
+    <datetime resolution="PT10M">
+      <ISO>2003-07-03T02:35:00Z</ISO>
+    </datetime>
+    <notes>
+      <xhtml:p>The variable looks very much the same as it did last night. Its brightness is
+        quite close to the magnitude 6.6 comparison star. I feel compelled to record it as
+          <xhtml:b>6.6</xhtml:b> tonight.</xhtml:p>
+    </notes>
+  </observation>
+
+  <observation>
+    <datetime resolution="PT10M">
+      <ISO>2003-07-05T02:35:00Z</ISO>
+    </datetime>
+    <notes>
+      <xhtml:p>The variable is considerably brighter than the magnitude 6.6 comparison star
+        tonight. It seems like it is between the 6.2 star and the 5.9 star, perhaps closer to
+        the 6.2 star. I am recording it at <xhtml:b>6.1</xhtml:b> tonight. I notice that T Cyg
+        (in the vicinity) is quite bright tonight.</xhtml:p>
+    </notes>
+  </observation>
+
+  <observation>
+    <datetime resolution="PT05M">
+      <ISO>2003-07-10T02:55:00Z</ISO>
+    </datetime>
+    <notes>
+      <xhtml:p>The variable is a bit brighter than the magnitude 6.6 comparison star and very
+        similar to the magnitude 6.5 comparison star. I am recording it at
+        <xhtml:b>6.5</xhtml:b> tonight.</xhtml:p>
+    </notes>
+  </observation>
+
+  <observation>
+    <datetime resolution="PT10M">
+      <ISO>2003-07-15T03:35:00Z</ISO>
+    </datetime>
+    <notes>
+      <xhtml:p>The variable was between the magnitude 6.9 and the magnitude 6.6 comparison
+        stars. It seemed to be closer to the 6.9 star. I am recording it at
+        <xhtml:b>6.8</xhtml:b> tonight.</xhtml:p>
+    </notes>
+  </observation>
+
+  <observation>
+    <datetime resolution="PT10M">
+      <ISO>2003-07-26T03:25:00Z</ISO>
+    </datetime>
+    <notes>
+      <xhtml:p>It has been a long time since my last observation. However, the delay was due
+        almost entirely to an amazing amount of bad weather.</xhtml:p>
+
+      <xhtml:p>The variable was distinctly brighter than the magnitude 6.6 comparison star. It
+        appeared close to the magnitude 6.5 comparison star. I am recording it at
+        <xhtml:b>6.5</xhtml:b> tonight.</xhtml:p>
+    </notes>
+  </observation>
+
+</observation-set>

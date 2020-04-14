@@ -1,0 +1,98 @@
+
+The Evening of Saturday, September 7, 2002
+
+It's a beautifully clear, moonless night. It's also unseasonably warm
+(19C). Limiting magnitude must be the high 5's... near or at 6.0. I
+didn't really attempt to measure or estimate it. However, the Milky Way
+was rich and clear with significant amounts of structure visible.
+
+I went out around 10:00pm and discovered an auroral display in progress.
+At first I thought there must be some haze to the north that the lights
+of Barre were illuminating. However, it quickly became clear that it was
+not Barre, but rather an aurora that was causing the extra light. I
+walked down the road a bit to get a better view.
+
+The display was quite good, although not the best I've seen. It was
+about 20 degrees high and spread out over about 60 degrees of horizon,
+centered on the north. Most of the time the display consisted of
+undefined blobs of light, but at times it organized itself nicely and I
+was able to see sheets of light extending upwards. The sheets had the
+classic curved bottoms and I was even able, at times, to see them
+flicker. The display wasn't bright enough for color (I had to use
+averted vision to really see a lot of it) but I did get a hint of green
+now and then.
+
+I set up the 'scope in my front yard and continued my observations there
+as described below. By the time I went in (just past 11:00pm) the aurora
+seemed to be dying down.
+
+Starting with this observing session I'm going to being using
+observation codes that Joe Roberts and I created many years ago. I used
+to use these codes all the time to classify deep sky objects and it
+proved very helpful when later review observations. I would like to get
+back into using them. See
+
+       http://www.ecet.vtc.edu/~pchapin/astronomy/ds-codes.htm
+
+for an explaination.
+
+NGC-7789, Cas: As always this is an excellent object. It is readily
+visible in the binoculars as a fuzzy ball and in the scope it is large
+and partially resolved. It clearly stands out from the rich Milky Way
+background. Tonight I noticed that the cluster seems to have two parts.
+The "main" part is mostly circular and is separated from a smaller,
+oblong section by a "dark lane". The small section is south of the main
+section. I would be curious to explore this more with a larger
+instrument. ds-code: C(25mm)b2f4c2s2,class=2
+
+NGC-7296, Lac: Fairly easy to find from Cep. It was readily visible
+although fairly small. There was a relatively bright star located near
+the center of the object (foreground star?). The cluster members were
+resolving using the 25mm but there was also a considerably amount of
+unresolved haze as well. Looks triangular. I tried three eyepieces,
+25mm, 18mm, and 12.5mm but I liked the view with the 25mm the best. The
+Milky Way field around the cluster is very rich but the cluster still
+stands out okay, particularly with averted vision, in part due to its
+small size and high apparent degree of compaction. ds-code:
+C(25mm)b3f4c1s4,class=3.
+
+NGC-7086, Cyg: Pretty much out in the middle of nowhere so it's a bit of
+a challenge to locate. This cluster is quite nice, however, and well
+worth locating. It looks like a round dusky ball covered with sparkles.
+It's not especially small or especially large and it stands out
+surprisingly well from the sky background (the Milky Way field here is a
+bit less rich than one might expect). Nice object. ds-code:
+C(25mm)b3f3d3s3,class=4 (due to difficulties locating).
+
+NGC-7510, Cep: Near the border with Cas. Not too hard to find starting
+from Delta Cep. This cluster appears as a small, oblong, partially
+resolved collection of stars. It looks like a fuzzy collection of a few
+stars. In my instrument this cluster does not appear all that
+spectacular. ds-code: C(25mm)b3f4c2s4,class=3.
+
+NGC-185, Cas: One of the more obscure companion galaxies of M31. It
+appears as a pretty faint fuzzy patch between two somewhat bright and
+obvious stars. The galaxy is clearly visible with averted vision but not
+at all with direct vision. Moving the field also helps. The object is
+relatively large and diffuse compared to many (more distant) galaxies.
+ds-code: C(25mm)b5f3d4s3,class=4.
+
+NGC-147, Cas: Another obscure companion galaxy of M31. I know I have
+seen this object in my 75mm Unitron before but I also remember it being
+very difficult. I spent about 10 minutes studying the area where it
+should have been but I was not able to definitely see it. I did have a
+couple of possible sightings, but there were too elusive and uncertain
+for me to feel confident that I was really looking at it. I may want to
+try this again after a more suitable period of dark adaptation (I'm
+using a white light flashlight tonight to consult my atlas) and with the
+object a bit higher in the sky.
+
+NGC-205 (M-110), And: This is the farther of M31's main companion
+galaxies. It's a wonderful object and if it wasn't for the proximity of
+M31 I'm sure it would be much better known than it is. With my 25mm
+eyepiece I can see NGC-205 and part of M31 in the same field, giving a
+very interesting look. ds-code: C(25mm)b2f3d3s3,class=3.
+
+I gave M31 itself a quick look but I didn't study it at all. At some
+point I should make an attempt to locate some of the outer arm features.
+I wonder what the Astronomy Club's 8" could see.

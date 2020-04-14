@@ -1,0 +1,161 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="../AOML/sky.xsl"?>
+<!-- FILE        : sky-2005.xml
+     AUTHOR      : (C) Copyright by Peter C. Chapin
+     SUBJECT     : Sky condition observations for 2005
+-->
+<observation-set xmlns="http://vortex.cis.vtc.edu/xml/AOML_0.0"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://vortex.cis.vtc.edu/xml/AOML_0.0 ../AOML/AOML.xsd">
+
+  <location>
+    <value>
+      <lat-long-alt>+43.00-072.50+300</lat-long-alt>
+    </value>
+    <notes>
+      <xhtml:p>Central Vermont, USA</xhtml:p>
+    </notes>
+  </location>
+  <observer>Peter C. Chapin</observer>
+  <notes>
+    <xhtml:p>The temperature and humidity measurements shown here were all made with a La Crosse
+      WS-7078SUF weather station.</xhtml:p>
+  </notes>
+
+  <observation>
+    <localdatetime type="LST" resolution="PT15M">
+      <ISO>2005-01-02T22:45:00</ISO>
+    </localdatetime>
+
+    <skyconditions>
+      <weather>
+        <temperature>
+          <value units="C">0.1</value>
+        </temperature>
+        <humidity>
+          <value units="%">88</value>
+        </humidity>
+        <notes>
+          <xhtml:p>The sky is covered with clouds and freezing rain is falling. The steps in
+            front of the house are very slippery. It is also rather windy.</xhtml:p>
+        </notes>
+      </weather>
+
+      <notes>
+        <xhtml:p>The sky is unobservable.</xhtml:p>
+      </notes>
+      <rating>0</rating>
+    </skyconditions>
+  </observation>
+
+  <observation>
+    <localdatetime type="LST" resolution="PT15M">
+      <ISO>2005-01-08T21:20:00</ISO>
+    </localdatetime>
+
+    <skyconditions>
+      <weather>
+        <temperature>
+          <value units="C">-5.6</value>
+        </temperature>
+        <humidity>
+          <value units="%">84</value>
+        </humidity>
+        <notes>
+          <xhtml:p>The ground is covered with several inches of snow that fell this afternoon.
+            However, at this time the sky is mostly clear with only a few areas obscured by haze
+            or high clouds.</xhtml:p>
+        </notes>
+      </weather>
+
+      <notes>
+        <xhtml:p>Good conditions exist over most of the sky. Deep sky observations would be very
+          possible. In some directions the limiting magnitude is somewhat inferior.</xhtml:p>
+      </notes>
+      <rating>4</rating>
+    </skyconditions>
+  </observation>
+
+  <observation>
+    <localdatetime type="LST" resolution="PT15M">
+      <ISO>2005-01-12T22:00:00</ISO>
+    </localdatetime>
+
+    <skyconditions>
+      <weather>
+        <temperature>
+          <value units="C">-1.5</value>
+        </temperature>
+        <humidity>
+          <value units="%">86</value>
+        </humidity>
+        <notes>
+          <xhtml:p>It is totally cloudly and lightly sleeting.</xhtml:p>
+        </notes>
+      </weather>
+
+      <notes>
+        <xhtml:p>The sky is unobservable.</xhtml:p>
+      </notes>
+      <rating>0</rating>
+    </skyconditions>
+  </observation>
+
+  <observation>
+    <localdatetime type="LDT" resolution="PT10M">
+      <ISO>2005-04-08T22:30:00</ISO>
+    </localdatetime>
+
+    <skyconditions>
+      <weather>
+        <temperature>
+          <value units="C">2.8</value>
+        </temperature>
+        <humidity>
+          <value units="%">68</value>
+        </humidity>
+        <notes>
+          <xhtml:p>Cool but not cold. Some clouds in the north and west but otherwise
+          clear.</xhtml:p>
+        </notes>
+      </weather>
+
+      <notes>
+        <xhtml:p>Aside from the clouds, the conditions are good. There is no moon and the sky is
+          dark. All object types are observable. The clouds are a bit pesky, however, and they
+          do detract from an otherwise excellent evening.</xhtml:p>
+      </notes>
+      <rating>4</rating>
+    </skyconditions>
+  </observation>
+
+  <observation>
+    <localdatetime type="LDT" resolution="PT10M">
+      <ISO>2005-04-12T21:15:00</ISO>
+    </localdatetime>
+
+    <skyconditions>
+      <weather>
+        <temperature>
+          <value units="C">1.7</value>
+        </temperature>
+        <humidity>
+          <value units="%">50</value>
+        </humidity>
+        <notes>
+          <xhtml:p>Generally clear skies, but some thin clouds.</xhtml:p>
+        </notes>
+      </weather>
+
+      <notes>
+        <xhtml:p>Quite a few stars are visible across much of the sky. However, there is a layer
+          of high, thin clouds that washs out the faint stars and causes the bright stars to
+          appear fuzzy. These clouds are particularly noticable in the vicinity of the waxing
+          cresent moon.</xhtml:p>
+      </notes>
+      <rating>3</rating>
+    </skyconditions>
+  </observation>
+
+</observation-set>

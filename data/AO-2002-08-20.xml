@@ -1,0 +1,199 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="../AOML/AOML.xsl"?>
+
+<observation-set xmlns="http://vortex.cis.vtc.edu/xml/AOML_0.0"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://vortex.cis.vtc.edu/xml/AOML_0.0 ../AOML/AOML.xsd">
+
+  <datetime>
+    <date>2002-08-20-04:00</date>
+  </datetime>
+  <location>
+    <value>
+      <lat-long-alt>+43.00-072.50+300</lat-long-alt>
+    </value>
+    <notes>
+      <xhtml:p>US-Vermont-Tunbridge</xhtml:p>
+    </notes>
+  </location>
+  <observer>Peter C. Chapin</observer>
+  <equipment>
+    <notes>
+      <xhtml:p>75mm Unitron refractor with the following eyepieces: 25mm (48x), 18mm (67x), and
+        12.5mm (96x). I also used 7x50 binoculars to help locate objects.</xhtml:p>
+    </notes>
+  </equipment>
+  <notes>
+    <xhtml:p>I've had my telescope (75mm Unitron refractor) in storage for over a year while my
+      wife and I worked on some renovations around the house. I took it out of storage just a
+      couple of days ago and set it up for easy access. Tonight was the first time I've used my
+      scope in months. I had to rebalance it and realign the finder but basically it seemed to
+      work fine.</xhtml:p>
+
+    <xhtml:p>Tonight was clear, cool, and not nearly as hazy as it has been the last few nights.
+      The moon was fat (only two days from full) and was washing out a good part of the sky.
+      Limiting magnitude in Cyg, on zenith, was probably 4.5 (estimated). However, my targets
+      tonight were double stars and they are not as affected by extra light as deep sky objects
+      would have been.</xhtml:p>
+
+    <xhtml:p>Note: The technical information on the doubles was taken from "Norton's 2000.0 Star
+      Atlas and Reference Handbook"</xhtml:p>
+  </notes>
+
+  <observation>
+    <object xsi:type="starMultipleObjectType">
+      <id catalog="ADS" id="14279"/>
+      <name>Gamma Del</name>
+      <type>star/multiple</type>
+      <constellation>Del</constellation>
+      <component designation="A">
+        <magnitude>4.5</magnitude>
+      </component>
+      <component designation="B">
+        <magnitude>5.5</magnitude>
+      </component>
+      <separation designation-1="A" designation-2="B" distance="9.6"/>
+    </object>
+    <notes>
+      <xhtml:p>Easily split in the 25mm. Nice view. The stars are close enough to be
+        interesting, but not so close as to be difficult. The stars exhibited a nice color
+        contrast. The brighter star was yellowish and the fainter one seemed to have a
+        blue/white color.</xhtml:p>
+    </notes>
+  </observation>
+
+  <observation>
+    <object xsi:type="starMultipleObjectType">
+      <id catalog="ADS" id="13442"/>
+      <name>Theta Sge</name>
+      <type>star/multiple</type>
+      <constellation>Sge</constellation>
+      <component designation="A">
+        <magnitude>6.5</magnitude>
+      </component>
+      <component designation="B">
+        <magnitude>9.0</magnitude>
+      </component>
+      <separation designation-1="A" designation-2="B" distance="11.9"/>
+    </object>
+    <notes>
+      <xhtml:p>Looks like a wide double in the finder. However, in the 25mm eyepiece shows that
+        the brighter star of the "finder double" is the actual double of interest (Theta). The
+        companion is quite a bit fainter than the primary but still easy to see.</xhtml:p>
+    </notes>
+  </observation>
+
+  <observation>
+    <object xsi:type="starMultipleObjectType">
+      <id catalog="ADS" id="13765"/>
+      <name>Gamma Cyg</name>
+      <type>star/multiple</type>
+      <constellation>Cyg</constellation>
+      <component designation="A">
+        <magnitude>2.2</magnitude>
+      </component>
+      <component designation="B">
+        <magnitude>9.5</magnitude>
+      </component>
+      <separation designation-1="A" designation-2="B" distance="41.2"/>
+    </object>
+    <notes>
+      <xhtml:p>Right in the middle of the cross. Despite the wide separation I was not able to
+        confirm a sighting of the secondary. I used a variety of magnifications. The secondary
+        might be too faint to see with direct vision but averted vision increased the glare from
+        the primary considerably and could easily bury the much fainter secondary.</xhtml:p>
+    </notes>
+  </observation>
+
+  <observation>
+    <object>
+      <id catalog="NGC" id="6910"/>
+      <type>cluster/open</type>
+      <constellation>Cyg</constellation>
+    </object>
+    <notes>
+      <xhtml:p>This cluster is immediately to the north of Gamma Cyg and so I thought I might as
+        well check it out while I was in the area. Averted vision showed a clear enrichment of
+        the sky background in one particular spot in the right vicinity (using 25mm eyepiece).
+        There were several bright foreground stars and a sense of many additional stars just out
+        of reach. This object might look very interesting in a larger scope or on a more
+        suitable night.</xhtml:p>
+    </notes>
+  </observation>
+
+  <observation>
+    <object xsi:type="starMultipleObjectType">
+      <id catalog="ADS" id="14259"/>
+      <name>52 Cyg</name>
+      <type>star/multiple</type>
+      <constellation>Cyg</constellation>
+      <component designation="A">
+        <magnitude>4.2</magnitude>
+      </component>
+      <component designation="B">
+        <magnitude>9.4</magnitude>
+      </component>
+      <separation designation-1="A" designation-2="B" distance="6.0"/>
+    </object>
+    <notes>
+      <xhtml:p>Unable to resolve. I used several different magnifications (25mm, 18mm, 12.5mm,
+        9mm). I'm sure the large difference in magnitudes was the problem. I had hoped that I
+        would have more luck with this than with Gamma Cyg since the primary isn't quite as
+        bright. However, the two stars are also much closer together. Note that this star is
+        involved with one branch of the Veil Nebula (it often shows up very brightly in pictures
+        of the Veil). Of course I was not able to see the Veil Nebula tonight!</xhtml:p>
+    </notes>
+  </observation>
+
+  <observation>
+    <object xsi:type="starMultipleObjectType">
+      <id catalog="ADS" id="14158"/>
+      <name>49 Cyg</name>
+      <type>star/multiple</type>
+      <constellation>Cyg</constellation>
+      <component designation="A">
+        <magnitude>5.7</magnitude>
+      </component>
+      <component designation="B">
+        <magnitude>7.8</magnitude>
+      </component>
+      <separation designation-1="A" designation-2="B" distance="2.7"/>
+    </object>
+    <notes>
+      <xhtml:p>Unable to resolve. I expected this one to be tough in my 75mm Unitron. Although
+        the separation is reasonable, the difference in magnitude, while not extreme, is enough
+        to be difficult when the stars are that close. I took a hard look at the star, however,
+        using all eyepieces up to the 6mm. I could see 49 Cyg as a small, well focused disk
+        surrounded by three clear diffraction rings. The seeing tonight was quite good; even at
+        high magnification the star image held steady. However, I could not see the secondary. I
+        did notice some brightening in one side of the diffraction rings at times, but the rings
+        are not uniform anyway (my 'scope isn't perfect... what can I say) and I wasn't able to
+        confirm a sighting.</xhtml:p>
+    </notes>
+  </observation>
+
+  <observation>
+    <object xsi:type="starMultipleObjectType">
+      <id catalog="ADS" id="14636"/>
+      <name>61 Cyg</name>
+      <type>star/multiple</type>
+      <constellation>Cyg</constellation>
+      <component designation="A">
+        <magnitude>5.2</magnitude>
+      </component>
+      <component designation="B">
+        <magnitude>6.0</magnitude>
+      </component>
+      <separation designation-1="A" designation-2="B" distance="30.3"/>
+    </object>
+    <notes>
+      <xhtml:p>Wide and easy. I was able to split this double in the finder. The stars have
+        about equal magnitudes and both look a bit reddish. Averted vision gave me the
+        impression that there was a cluster nearby. I seemed to see a faint group of stars just
+        to the side of 61 Cyg. There is nothing plotted in any of my atlases so it was probably
+        just a bit of rich Milky Way background.</xhtml:p>
+    </notes>
+  </observation>
+
+</observation-set>

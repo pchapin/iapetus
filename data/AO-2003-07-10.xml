@@ -1,0 +1,227 @@
+<?xml version="1.0"?>
+
+<!DOCTYPE observation-set [
+  <!-- Mozilla does not process external entities.
+  <!ENTITY % AOMLentities SYSTEM "AOML.ent">
+  %AOMLentities;
+  -->
+
+<!-- Useful symbols. -->
+<!ENTITY copy     "&#169;">
+
+<!-- Greek. Needed for star names. -->
+<!ENTITY alpha    "&#945;">
+<!ENTITY beta     "&#946;">
+<!ENTITY gamma    "&#947;">
+<!ENTITY delta    "&#948;">
+<!ENTITY epsilon  "&#949;">
+<!ENTITY zeta     "&#950;">
+<!ENTITY eta      "&#951;">
+<!ENTITY theta    "&#952;">
+<!ENTITY iota     "&#953;">
+<!ENTITY kappa    "&#954;">
+<!ENTITY lambda   "&#955;">
+<!ENTITY mu       "&#956;">
+<!ENTITY nu       "&#957;">
+<!ENTITY xi       "&#958;">
+<!ENTITY omicron  "&#959;">
+<!ENTITY pi       "&#960;">
+<!ENTITY rho      "&#961;">
+<!ENTITY sigma    "&#963;">
+<!ENTITY tau      "&#964;">
+<!ENTITY upsilon  "&#965;">
+<!ENTITY phi      "&#966;">
+<!ENTITY chi      "&#967;">
+<!ENTITY psi      "&#968;">
+<!ENTITY omega    "&#969;">
+
+]>
+
+<?xml-stylesheet type="text/xsl" href="../AOML/AOML.xsl"?>
+
+<observation-set xmlns="http://vortex.cis.vtc.edu/xml/AOML_0.0"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://vortex.cis.vtc.edu/xml/AOML_0.0 ../AOML/AOML.xsd">
+
+  <datetimerange>
+    <start resolution="PT05M">
+      <ISO>2003-07-10T02:48:00Z</ISO>
+    </start>
+    <end resolution="PT05M">
+      <ISO>2003-07-10T03:40:00Z</ISO>
+    </end>
+  </datetimerange>
+  <location>
+    <value>
+      <lat-long-alt>+43.00-072.50+300</lat-long-alt>
+    </value>
+    <notes>
+      <xhtml:p>US-Vermont-Tunbridge</xhtml:p>
+    </notes>
+  </location>
+  <observer>Peter C. Chapin</observer>
+  <equipment>
+    <notes>
+      <xhtml:p>75mm Unitron refractor with 25mm (48x), 18mm (67x), 12.5mm (96x), and 9mm (133x)
+        eyepieces. I also used Celestron 10x60 binoculars to help locate objects.</xhtml:p>
+    </notes>
+  </equipment>
+  <notes>
+    <xhtml:p>My plan for the evening was to observe doubles in western Cyg and to catch up on X
+      Cyg and W Her.</xhtml:p>
+  </notes>
+
+  <observation>
+    <object xsi:type="starMultipleObjectType">
+      <id catalog="ADS" id="12169"/>
+      <type>star/multiple</type>
+      <position>
+        <equatorial right-ascension="19h10.8m" declination="+49d46m" equinox="B1950.0"/>
+      </position>
+      <constellation>Cyg</constellation>
+      <component designation="A">
+        <magnitude>6.84</magnitude>
+      </component>
+      <component designation="B">
+        <magnitude>6.62</magnitude>
+      </component>
+      <separation designation-1="A" designation-2="B" distance="8.7"/>
+    </object>
+    <notes>
+      <xhtml:p>This double was a little tricky to find because it is somewhat far from any good
+        landmarks. I found it easiest to locate by working from the "wing" of Cyg.</xhtml:p>
+
+      <xhtml:p>The double was easily split with the 25mm eyepiece although the components were
+        rather close at that low magnification. The components were about equal brightness and
+        with much glare. The view with the 18mm eyepiece was particularly satisfying. Nice
+        pair.</xhtml:p>
+    </notes>
+  </observation>
+
+  <observation>
+    <object xsi:type="starMultipleObjectType">
+      <id catalog="ADS" id="12815"/>
+      <name>16 Cyg</name>
+      <type>star/multiple</type>
+      <position>
+        <equatorial right-ascension="19h40.5m" declination="+50d24m" equinox="B1950.0"/>
+      </position>
+      <constellation>Cyg</constellation>
+      <component designation="A">
+        <magnitude>6.26</magnitude>
+      </component>
+      <component designation="B">
+        <magnitude>6.37</magnitude>
+      </component>
+      <separation designation-1="A" designation-2="B" distance="39.0"/>
+    </object>
+    <notes>
+      <xhtml:p>This double was nearby ADS-12169. It was very wide and easy. In fact, the double
+        was so wide and the star background was so rich that the pair did not seem all that
+        interesting. I noticed that the double was resolvable in the finder 'scope at
+        8x.</xhtml:p>
+
+      <xhtml:p>The variable R Cyg is near this double and I noticed that it seemed near maximum
+        tonight.</xhtml:p>
+    </notes>
+  </observation>
+
+  <observation>
+    <object xsi:type="starMultipleObjectType">
+      <id catalog="ADS" id="12880"/>
+      <name>&delta; Cyg</name>
+      <type>star/multiple</type>
+      <constellation>Cyg</constellation>
+      <component designation="A">
+        <magnitude>3.0</magnitude>
+      </component>
+      <component designation="B">
+        <magnitude>6.5</magnitude>
+      </component>
+      <separation designation-1="A" designation-2="B" distance="2.1" PA="246"/>
+    </object>
+    <notes>
+      <xhtml:p>I was unable to resolve this double due, no doubt, to the brightness of the
+        primary. I tried all my eyepieces from the 25mm to the 9mm without any conclusive
+        sighting of the secondary. However I did see a <xhtml:em>possible</xhtml:em> glimpse of
+        the secondary at a position angle of around 250 degrees. After coming in from outside I
+        checked my catalog information and found that the actual position angle is quite close
+        to what I was seeing. However, despite that, I can't honestly say that I observed the
+        secondary for sure. The view I got was too inferior.</xhtml:p>
+
+      <xhtml:p>Seeing tonight was decent, but not wonderful. It might be good to check this
+        double again under conditions of excellent seeing.</xhtml:p>
+    </notes>
+  </observation>
+
+  <observation>
+    <object xsi:type="starMultipleObjectType">
+      <id catalog="ADS" id="12893"/>
+      <type>star/multiple</type>
+      <position>
+        <equatorial right-ascension="19h43.8m" declination="+35d58m" equinox="B1950.0"/>
+      </position>
+      <constellation>Cyg</constellation>
+      <component designation="A">
+        <magnitude>6.50</magnitude>
+      </component>
+      <component designation="B">
+        <magnitude>7.10</magnitude>
+      </component>
+      <separation designation-1="A" designation-2="B" distance="15.1"/>
+    </object>
+    <notes>
+      <xhtml:p>Easily resolved with the 25mm eyepiece. The difference in brightness between the
+        components is noticeable but not extreme. The field of view was interesting. It had a
+        lot of faint and mediumly bright stars without being overwhelming. This was a satisfying
+        double.</xhtml:p>
+    </notes>
+  </observation>
+
+  <observation>
+    <object xsi:type="starMultipleObjectType">
+      <id catalog="ADS" id="12900"/>
+      <type>star/multiple</type>
+      <position>
+        <equatorial right-ascension="19h44.0m" declination="+34d53m" equinox="B1950.0"/>
+      </position>
+      <constellation>Cyg</constellation>
+      <component designation="A">
+        <magnitude>6.23</magnitude>
+      </component>
+      <component designation="B">
+        <magnitude>8.4</magnitude>
+      </component>
+      <separation designation-1="A" designation-2="B" distance="38"/>
+    </object>
+    <notes>
+      <xhtml:p>This double was quite wide. The secondary is significantly fainter than the
+        primary. The field is rich and that, together with the wide separation, makes this
+        double relatively uninteresting.</xhtml:p>
+    </notes>
+  </observation>
+
+  <observation>
+    <object xsi:type="starMultipleObjectType">
+      <id catalog="ADS" id="12913"/>
+      <name>17 Cyg</name>
+      <type>star/multiple</type>
+      <constellation>Cyg</constellation>
+      <component designation="A">
+        <magnitude>5.03</magnitude>
+      </component>
+      <component designation="B">
+        <magnitude>8.5</magnitude>
+      </component>
+      <separation designation-1="A" designation-2="B" distance="25.9"/>
+    </object>
+    <notes>
+      <xhtml:p>Although this double was also widely separated I found it much more interesting
+        than ADS-12900. The primary seemed bright in the 25mm eyepiece with a significantly
+        fainter secondary. It was easily resolved, however. The field was very rich and
+        interesting.</xhtml:p>
+    </notes>
+  </observation>
+
+</observation-set>

@@ -1,0 +1,75 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="../AOML/AOML.xsl"?>
+
+<observation-set xmlns="http://vortex.cis.vtc.edu/xml/AOML_0.0"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://vortex.cis.vtc.edu/xml/AOML_0.0 ../AOML/AOML.xsd">
+
+  <datetimerange>
+    <start resolution="PT05M">
+      <ISO>2003-07-02T03:05:00Z</ISO>
+    </start>
+    <end resolution="PT05M">
+      <ISO>2003-07-02T03:40:00Z</ISO>
+    </end>
+  </datetimerange>
+  <location>
+    <value>
+      <lat-long-alt>+43.00-072.50+300</lat-long-alt>
+    </value>
+    <notes>
+      <xhtml:p>US-Vermont-Tunbridge</xhtml:p>
+    </notes>
+  </location>
+  <observer>Peter C. Chapin</observer>
+  <equipment>
+    <notes>
+      <xhtml:p>Tonight I used my 10x60 binoculars as my primary observing instrument. I also
+        used my naked eye for some observations.</xhtml:p>
+    </notes>
+  </equipment>
+  <notes>
+    <xhtml:p>My plan for this evening was to set up in the field across the street (now that it
+      has been cut) and see how much of the sky I can view from there. The setup time was short
+      tonight because I only brought out my binoculars and supporting items (flashlights, radio,
+      atlases). I did not bother with the telescope. This cut the number of trips I needed to
+      make to two, down from four. I found that ascending the embankment up to the field was a
+      little tricky in the dark. It went okay but I'm not sure how it would be to haul the
+      telescope mounting up there. I used the 6v flashlight to illuminate the trail during
+      setup; without that it would have been very hazardous.</xhtml:p>
+
+    <xhtml:p>From the field I could see a lot more of the sky than I can from my yard. There was
+      a nearly perfect view of the east (although the horizon was hidden by a ridge) and a
+      decent view of the south. I could see the top part of Sco (but not the lower section) and
+      the top of the Sgr teapot. Oph was well placed on meridian and completely visible. The
+      view to the west and southwest was not especially good due to trees, but if I went farther
+      up on the field I'm sure it would be better in that direction too.</xhtml:p>
+
+    <xhtml:p>I observed the region of the North American Nebula (NGC-7000) in the binoculars.
+      The outline of the nebula was quite visible but what struck me tonight was the large dark
+      area just to the east of the main nebula. In that area there was a rather bright star
+      standing more or less on its own. It had an obvious red hue. To the north of the nebula,
+      perhaps one binocular field of view away, I saw a rather distinct dark "hole". It was
+      nearly circular and appeared to be completely devoid of stars or "foggy" background. It
+      was quite fascinating. The entire area was littered with dark lanes of various
+      kinds.</xhtml:p>
+
+    <xhtml:p>M-11 was a spectacular object in the binoculars. In fact, the entire area around
+      M-11, the Scutum Star Cloud, was amazing. I could even see the bright foreground star that
+      appears to be involved with M-11. The cluster itself, however, was unresolved. M-10 and
+      M-12 in Oph were also nice in the binoculars. Both clusters fit into the same field of
+      view and both were bright (easily seen with direct). They looked like circular fuzzy
+      disks. M-10 was rather near the bright star 30 Oph and that made for an interesting view.
+      I also looked at M-5. It was just about to go into the trees. I was amazed at how bright
+      it was. It was much brighter than M-10 or M-12 although it seemed to be about the same
+      size. Its proximity to 5 Ser really added a lot of interest to the view.</xhtml:p>
+
+    <xhtml:p>M-22 in Sgr was easily visible above the trees. It was a large, impressive object.
+      M-8, the Lagoon Nebula, was also excellent. I could see the Trifid Nebula, M-20, as a
+      small, fuzzy splotch around a star. I could also see numerous other clusters in the area.
+      I really need to get the telescope up on this field so that I can look at some of these
+      objects with it!</xhtml:p>
+  </notes>
+
+</observation-set>

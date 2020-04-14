@@ -1,0 +1,131 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="../AOML/AOML.xsl"?>
+
+<observation-set xmlns="http://vortex.cis.vtc.edu/xml/AOML_0.0"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://vortex.cis.vtc.edu/xml/AOML_0.0 ../AOML/AOML.xsd">
+
+  <datetimerange>
+    <start resolution="PT15M">
+      <ISO>1996-12-08T21:45:00-05:00</ISO>
+    </start>
+    <end resolution="PT15M">
+      <ISO>1996-12-08T22:30:00-05:00</ISO>
+    </end>
+  </datetimerange>
+  <location>
+    <value>
+      <lat-long-alt>+43.00-072.50+300</lat-long-alt>
+    </value>
+    <notes>
+      <xhtml:p>US-Vermont-Tunbridge</xhtml:p>
+    </notes>
+  </location>
+  <observer>Peter C. Chapin</observer>
+  <equipment>
+    <notes>
+      <xhtml:p>75mm Unitron refractor, focal length = 1200mm. For binoculars I used my Pentax
+        7x50s.</xhtml:p>
+    </notes>
+  </equipment>
+  <notes>
+    <xhtml:p>Just after setting up my telescope, I saw a rather impressive meteor. It left a
+      long, persistent trail. It was yellow. I suspect that it was an early Geminid. The
+      direction of motion was consistent with that guess.</xhtml:p>
+
+    <xhtml:p>There were some clouds floating through the area tonight. The temperature was about
+      24d F.</xhtml:p>
+  </notes>
+
+  <observation>
+    <object>
+      <id catalog="M" id="42"/>
+      <id catalog="NGC" id="1976"/>
+      <name>Orion Nebula</name>
+      <type>nebula</type>
+      <constellation>Ori</constellation>
+    </object>
+    <notes>
+      <xhtml:p>This object was, as usual, a showpiece. It was very bright and quite spectacular.
+        I used the 25mm eyepiece this evening. I didn't bother to explore any higher powers. I
+        could see quite a bit of detail and structure in the outer portions of the nebula. I
+        noticed also that theta Ori, really a collection of four stars in the heart of the
+        nebula, make good stars on which to focus the telescope precisely.</xhtml:p>
+
+      <xhtml:p>It also appeared to me that I could see some nebulosity (is this really a word?)
+        surrounding iota Ori just a bit south of the main nebula. This might have been NGC-1980.
+        However it might have also been glare. In addition, I looked for NGC-1977 surrounding 42
+        and 45 Ori to the north of the main nebula. My view was inconclusive. The glare from the
+        stars made it hard to distinguish any nebula that might have been present.</xhtml:p>
+    </notes>
+  </observation>
+
+  <observation>
+    <object-group>
+      <object>
+        <id catalog="NGC" id="1807"/>
+        <type>cluster/open</type>
+        <constellation>Tau</constellation>
+      </object>
+      <object>
+        <id catalog="NGC" id="1817"/>
+        <type>cluster/open</type>
+        <constellation>Tau</constellation>
+      </object>
+    </object-group>
+    <notes>
+      <xhtml:p>Both of these clusters were visible in binoculars as small little fuzz balls. In
+        the 25 mm, they looked fairly uninteresting. NGC-1807 was the smaller of the two.
+        NGC-1817 was larger and seems to contain more stars. In fact, NGC-1817 showed quite a
+        few stars with averted vision. It is probably a rich cluster when seen with a larger
+        'scope. NGC-1807 showed a small core of faint fuzziness with averted vision, so there
+        was probably more there as well. Both clusters were easily visible in the same field of
+        view.</xhtml:p>
+    </notes>
+  </observation>
+
+  <observation>
+    <object>
+      <id catalog="NGC" id="1647"/>
+      <type>cluster/open</type>
+      <constellation>Tau</constellation>
+    </object>
+    <notes>
+      <xhtml:p>This is a rather large cluster. It's easy to see in binoculars. In fact, it looks
+        very nice in the binoculars as a granular, fuzzy ball. In the telescope, it fills the
+        field of view (25 mm eyepiece). Although there are some hints of fainter stars, the
+        telescope view is really too spread out to look good.</xhtml:p>
+    </notes>
+  </observation>
+
+  <observation>
+    <object>
+      <id catalog="M" id="1"/>
+      <id catalog="NGC" id="1952"/>
+      <name>Crab Nebula</name>
+      <type>nebula/planetary</type>
+      <constellation>Tau</constellation>
+    </object>
+    <notes>
+      <xhtml:p>Bright. It looked mostly spherical with the 25 mm eyepiece. Using averted vision,
+        I could get hints of its true oblong shape. The background field was very pretty. There
+        were no bright stars, but there were quite a few faint ones that made for an interesting
+        view. This is a nice object.</xhtml:p>
+    </notes>
+  </observation>
+
+  <observation>
+    <object>
+      <id catalog="NGC" id="1746"/>
+      <type>cluster/open</type>
+      <constellation>Tau</constellation>
+    </object>
+    <notes>
+      <xhtml:p>This was a very large cluster. It was a very nice object in the binoculars. It
+        could be resolved into stars, but it also left some things to the imagination as well. I
+        was unable to get this object in the 'scope due to clouds.</xhtml:p>
+    </notes>
+  </observation>
+
+</observation-set>

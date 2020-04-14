@@ -1,0 +1,156 @@
+<?xml version="1.0"?>
+
+<!DOCTYPE observation-set [
+  <!-- Mozilla does not process external entities.
+  <!ENTITY % AOMLentities SYSTEM "AOML.ent">
+  %AOMLentities;
+  -->
+
+<!-- Useful symbols. -->
+<!ENTITY copy     "&#169;">
+
+<!-- Greek. Needed for star names. -->
+<!ENTITY alpha    "&#945;">
+<!ENTITY beta     "&#946;">
+<!ENTITY gamma    "&#947;">
+<!ENTITY delta    "&#948;">
+<!ENTITY epsilon  "&#949;">
+<!ENTITY zeta     "&#950;">
+<!ENTITY eta      "&#951;">
+<!ENTITY theta    "&#952;">
+<!ENTITY iota     "&#953;">
+<!ENTITY kappa    "&#954;">
+<!ENTITY lambda   "&#955;">
+<!ENTITY mu       "&#956;">
+<!ENTITY nu       "&#957;">
+<!ENTITY xi       "&#958;">
+<!ENTITY omicron  "&#959;">
+<!ENTITY pi       "&#960;">
+<!ENTITY rho      "&#961;">
+<!ENTITY sigma    "&#963;">
+<!ENTITY tau      "&#964;">
+<!ENTITY upsilon  "&#965;">
+<!ENTITY phi      "&#966;">
+<!ENTITY chi      "&#967;">
+<!ENTITY psi      "&#968;">
+<!ENTITY omega    "&#969;">
+
+]>
+
+<?xml-stylesheet type="text/xsl" href="../AOML/AOML.xsl"?>
+
+<observation-set xmlns="http://vortex.cis.vtc.edu/xml/AOML_0.0"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://vortex.cis.vtc.edu/xml/AOML_0.0 ../AOML/AOML.xsd">
+
+  <datetimerange>
+    <start resolution="PT05M">
+      <ISO>2003-06-17T02:22:00Z</ISO>
+    </start>
+    <end resolution="PT05M">
+      <ISO>2003-06-17T03:13:00Z</ISO>
+    </end>
+  </datetimerange>
+  <location>
+    <value>
+      <lat-long-alt>+43.00-072.50+300</lat-long-alt>
+    </value>
+    <notes>
+      <xhtml:p>US-Vermont-Tunbridge</xhtml:p>
+    </notes>
+  </location>
+  <observer>Peter C. Chapin</observer>
+  <equipment>
+    <notes>
+      <xhtml:p>75mm Unitron refractor with the following eyepieces: 25mm (48x), 18mm (67x),
+        12.5mm (96x), and 9mm (133x). I also used 10x60 binoculars to help locate
+      objects.</xhtml:p>
+    </notes>
+  </equipment>
+  <notes>
+    <xhtml:p>My plan for the evening was to continue looking at doubles in Her. See <xhtml:a
+        href="AO-2003-06-16.xml">2003-06-16</xhtml:a> for information about last night's
+      session.</xhtml:p>
+
+    <xhtml:p>As with last night, I saw what I felt was an exceptional number of satellites
+      tonight. Most of them were moving from south to north through Her and nearby
+      areas---which, of course, was were I was looking.</xhtml:p>
+  </notes>
+
+  <observation>
+    <object xsi:type="starMultipleObjectType">
+      <id catalog="ADS" id="10424"/>
+      <name>&delta; Her</name>
+      <type>star/multiple</type>
+      <constellation>Her</constellation>
+      <component designation="A">
+        <magnitude>3.16</magnitude>
+      </component>
+      <component designation="B">
+        <magnitude>8.8</magnitude>
+      </component>
+      <separation designation-1="A" designation-2="B" distance="10.0"/>
+    </object>
+    <notes>
+      <xhtml:p>The secondary was quite faint but it was (barely) visible with direct vision. The
+        double was resolved with even the 25mm eyepiece although it was difficult at that
+        magnification. The best view was with the 18mm eyepiece. The seeing didn't support
+        higher magnifications. The primary was white the secondary did not appear to have any
+        color due to its faintness. Overall it was a nice view.</xhtml:p>
+    </notes>
+  </observation>
+
+  <observation>
+    <object xsi:type="starMultipleObjectType">
+      <id catalog="ADS" id="10655"/>
+      <type>star/multiple</type>
+      <position>
+        <equatorial right-ascension="17h33.8m" declination="+21d02m" equinox="B1950.0"/>
+      </position>
+      <constellation>Her</constellation>
+      <component designation="A">
+        <magnitude>5.82</magnitude>
+      </component>
+      <component designation="B">
+        <magnitude>9.4</magnitude>
+      </component>
+      <separation designation-1="A" designation-2="B" distance="10.5"/>
+    </object>
+    <notes>
+      <xhtml:p>This double appeared very similarly to Delta Her except that both the primary and
+        secondary were a bit fainter. The secondary was just glimpseable with direct vision;
+        averted vision was required to see it clearly making the glare from the primary
+        something of an issue. The best view was with the 18mm eyepiece. I was not able to see
+        the secondary at all with either the 12.5mm or 9mm eyepieces. This was also a nice
+        object overall although a bit of a challenge with my instrument.</xhtml:p>
+    </notes>
+  </observation>
+
+  <observation>
+    <object xsi:type="starMultipleObjectType">
+      <id catalog="ADS" id="10397"/>
+      <type>star/multiple</type>
+      <position>
+        <equatorial right-ascension="17h10.4m" declination="+49d48m" equinox="B1950.0"/>
+      </position>
+      <constellation>Her</constellation>
+      <component designation="A">
+        <magnitude>6.05</magnitude>
+      </component>
+      <component designation="B">
+        <magnitude>9.5</magnitude>
+      </component>
+      <separation designation-1="A" designation-2="B" distance="4.6" PA="114"/>
+    </object>
+    <notes>
+      <xhtml:p>This was a difficult object due to the faintness of the secondary and its
+        proximity to the primary. I was able to observe the secondary intermittently using the
+        12.5mm eyepiece and, to a lesser extent, the 18mm eyepiece. I observed a position angle
+        (estimated) of about 100 degrees. I <em>later</em> compared this observation with the
+        information in my reference and found good agreement. I believe this confirms my
+        sighting.</xhtml:p>
+    </notes>
+  </observation>
+
+</observation-set>

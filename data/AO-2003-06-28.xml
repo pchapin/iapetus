@@ -1,0 +1,196 @@
+<?xml version="1.0"?>
+
+<!DOCTYPE observation-set [
+  <!-- Mozilla does not process external entities.
+  <!ENTITY % AOMLentities SYSTEM "AOML.ent">
+  %AOMLentities;
+  -->
+
+<!-- Useful symbols. -->
+<!ENTITY copy     "&#169;">
+
+<!-- Greek. Needed for star names. -->
+<!ENTITY alpha    "&#945;">
+<!ENTITY beta     "&#946;">
+<!ENTITY gamma    "&#947;">
+<!ENTITY delta    "&#948;">
+<!ENTITY epsilon  "&#949;">
+<!ENTITY zeta     "&#950;">
+<!ENTITY eta      "&#951;">
+<!ENTITY theta    "&#952;">
+<!ENTITY iota     "&#953;">
+<!ENTITY kappa    "&#954;">
+<!ENTITY lambda   "&#955;">
+<!ENTITY mu       "&#956;">
+<!ENTITY nu       "&#957;">
+<!ENTITY xi       "&#958;">
+<!ENTITY omicron  "&#959;">
+<!ENTITY pi       "&#960;">
+<!ENTITY rho      "&#961;">
+<!ENTITY sigma    "&#963;">
+<!ENTITY tau      "&#964;">
+<!ENTITY upsilon  "&#965;">
+<!ENTITY phi      "&#966;">
+<!ENTITY chi      "&#967;">
+<!ENTITY psi      "&#968;">
+<!ENTITY omega    "&#969;">
+
+]>
+
+<?xml-stylesheet type="text/xsl" href="../AOML/AOML.xsl"?>
+
+<observation-set xmlns="http://vortex.cis.vtc.edu/xml/AOML_0.0"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://vortex.cis.vtc.edu/xml/AOML_0.0 ../AOML/AOML.xsd">
+
+  <datetimerange>
+    <start resolution="PT10M">
+      <ISO>2003-06-28T02:30:00Z</ISO>
+    </start>
+    <end resolution="PT10M">
+      <ISO>2003-06-28T03:13:00Z</ISO>
+    </end>
+  </datetimerange>
+  <location>
+    <value>
+      <lat-long-alt>+43.00-072.50+300</lat-long-alt>
+    </value>
+    <notes>
+      <xhtml:p>US-Vermont-Tunbridge</xhtml:p>
+    </notes>
+  </location>
+  <observer>Peter C. Chapin</observer>
+  <equipment>
+    <notes>
+      <xhtml:p>75mm Unitron refractor with the following eyepieces: 25mm (48x), 18mm (67x), and
+        12.5mm (96x). I also used 10x60 binoculars.</xhtml:p>
+    </notes>
+  </equipment>
+  <notes>
+    <xhtml:p>My plan for the evening was to look at some double stars in Lyr. However, I ended
+      up dodging clouds for much of the time I was outside. I spent some time scanning around
+      with my relatively new 10x60 binoculars and I got some nice views of M-13, the Milky Way
+      in Cyg (I could see some dark lanes), the Scutum star cloud, and especially of the Lagoon
+      nebula. I could see the Lagoon from the end of my driveway and it was exceptionally bright
+      and interesting in the binoculars.</xhtml:p>
+
+    <xhtml:p>At one point I noticed an interesting satellite moving through Hercules. It was
+      moving from north to south (roughly) and I followed it in the 10x60 binoculars for a
+      while. It varied in brightness from maybe 3<xhtml:sup>rd</xhtml:sup> or
+        4<xhtml:sup>th</xhtml:sup> magnitude to just barely visible with a period of perhaps 10
+      seconds (not measured). </xhtml:p>
+  </notes>
+
+  <observation>
+    <object>
+      <id catalog="M" id="71"/>
+      <type>cluster/open</type>
+      <constellation>Sge</constellation>
+    </object>
+    <notes>
+      <xhtml:p>Using the 25mm (48x) eyepiece, and by carefully adjusting the focus, the cluster
+        appeared as a granular fuzzball in a rich field. Using averted vision I could see a
+        number of stars in and around the cluster. I got the impression that it was starting to
+        resolve. It was very impressive. I also noticed that there appeared to be a lesser,
+        secondary cluster off the side of the main cluster. It could be part of the same object
+        or perhaps just a chance grouping of stars in the vicinity.</xhtml:p>
+
+      <xhtml:p>In the 10x60 binoculars the object was an obvious little ball of fuzz in an
+        extremely rich field. The binoculars also gave a good view, although the object was a
+        bit small.</xhtml:p>
+    </notes>
+  </observation>
+
+  <observation>
+    <object>
+      <id catalog="M" id="57"/>
+      <name>Ring Nebula</name>
+      <type>nebula/planetary</type>
+      <constellation>Lyr</constellation>
+    </object>
+    <notes>
+      <xhtml:p>I found that the best view was with the 18mm. Using the 25mm the object is a bit
+        too small. The nebula is located in a rich and interesting field. It is bright and easy
+        to see with direct vision but I found that I needed to use averted vision to see the
+        central hole. I seem to recall seeing the central hole better in the past but perhaps
+        I'm remembering views with larger telescopes.</xhtml:p>
+    </notes>
+  </observation>
+
+  <observation>
+    <object xsi:type="starMultipleObjectType">
+      <id catalog="ADS" id="11745"/>
+      <name>&beta; Lyr</name>
+      <type>star/multiple</type>
+      <constellation>Lyr</constellation>
+      <component designation="A">
+        <magnitude>var</magnitude>
+      </component>
+      <component designation="B">
+        <magnitude>7.8</magnitude>
+      </component>
+      <separation designation-1="A" designation-2="B" distance="46.6"/>
+    </object>
+    <notes>
+      <xhtml:p>This famous star is also a nice double. It is easily resolved with the 25mm
+        (48x). The primary looks white with perhaps a yellowish tinge. The secondary is obvious
+        and easily seen. It has a definite bluish hue compared to the primary.</xhtml:p>
+
+      <xhtml:p>I also noticed two other stars in the field of view that were close to the
+        primary&#x2014;they were not much farther away from it than the bright secondary. The
+        bright secondary and these two other stars form a rough triangle around the primary. I
+        don't know, offhand, if these other stars are part of the same system or just background
+        (foreground?) stars.</xhtml:p>
+    </notes>
+  </observation>
+
+  <observation>
+    <object xsi:type="starMultipleObjectType">
+      <id catalog="ADS" id="11639"/>
+      <name>&zeta; Lyr</name>
+      <type>star/multiple</type>
+      <constellation>Lyr</constellation>
+      <component designation="A">
+        <magnitude>4.29</magnitude>
+      </component>
+      <component designation="B">
+        <magnitude>5.87</magnitude>
+      </component>
+      <separation designation-1="A" designation-2="B" distance="43.7"/>
+    </object>
+    <notes>
+      <xhtml:p>This is another bright, easy double. The <xhtml:i>Sky Atlas 2000</xhtml:i> shows
+        both stars separately (right on top of one another). It's a wide pair that's easily
+        resolvable in the 25mm eyepiece (48x). Both stars appear white. Quite frankly, the
+        double is almost "dull". The field is fairly rich and interesting, however.</xhtml:p>
+
+      <xhtml:p>This object is resolvable in the telescope's 8x finder. It is also resolvable in
+        my 10x60 binoculars although I found it tricky to hold the binoculars steady enough to
+        get a decent view.</xhtml:p>
+    </notes>
+  </observation>
+
+  <observation>
+    <object xsi:type="starMultipleObjectType">
+      <id catalog="ADS" id="12197"/>
+      <name>&eta; Lyr</name>
+      <type>star/multiple</type>
+      <constellation>Lyr</constellation>
+      <component designation="A">
+        <magnitude>4.46</magnitude>
+      </component>
+      <component designation="B">
+        <magnitude>8.7</magnitude>
+      </component>
+      <separation designation-1="A" designation-2="B" distance="28.2"/>
+    </object>
+    <notes>
+      <xhtml:p>Easily resolved in the 25mm eyepiece (48x). The secondary is considerably fainter
+        than the primary, making it a more challenging double than some of the others I've seen
+        tonight. However, the secondary was still easily seen. Overall it was a nice
+        object.</xhtml:p>
+    </notes>
+  </observation>
+
+</observation-set>

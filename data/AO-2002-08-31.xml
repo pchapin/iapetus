@@ -1,0 +1,174 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="../AOML/AOML.xsl"?>
+
+<observation-set xmlns="http://vortex.cis.vtc.edu/xml/AOML_0.0"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://vortex.cis.vtc.edu/xml/AOML_0.0 ../AOML/AOML.xsd">
+
+  <datetime>
+    <date>2002-08-31-04:00</date>
+  </datetime>
+  <location>
+    <value>
+      <lat-long-alt>+43.00-072.50+300</lat-long-alt>
+    </value>
+    <notes>
+      <xhtml:p>US-Vermont-Tunbridge</xhtml:p>
+    </notes>
+  </location>
+  <observer>Peter C. Chapin</observer>
+  <equipment>
+    <notes>
+      <xhtml:p>75mm Unitron refractor with 25mm (48x) eyepiece.</xhtml:p>
+    </notes>
+  </equipment>
+  <notes>
+    <xhtml:p>It was excellently clear this evening with magnitude 5.9 stars "easily" visible in
+      Cygnus. If anything the conditions tonight were better than during my last observing
+      session.</xhtml:p>
+
+    <xhtml:p>My plan for the evening was to look at open clusters in Cepheus, including some
+      rather faint ones. Finding such objects is always a bit of a challenge against a rich
+      Milky Way background. Faint star associations can look like a diffuse object to averted
+      vision so false alarms and self-misleading observations are always a danger.</xhtml:p>
+  </notes>
+
+  <observation>
+    <object>
+      <id catalog="NGC" id="7235"/>
+      <type>cluster/open</type>
+      <constellation>Cep</constellation>
+    </object>
+    <notes>
+      <xhtml:p>This cluster was easy to locate since it was involved with the triangle formed by
+        delta, zeta, and epsilon Cephei. It was relatively compact and has a bright (probably
+        foreground) star involved. Averted vision showed some of the member stars, but it was
+        obvious that many remain unresolved. Despite the rich field the cluster still stood out
+        fairly well. Nice view.</xhtml:p>
+    </notes>
+  </observation>
+
+  <observation>
+    <object>
+      <id catalog="NGC" id="7281"/>
+      <type>cluster/open</type>
+      <constellation>Cep</constellation>
+    </object>
+    <notes>
+      <xhtml:p>I couldn't confirm a sighting of this object. I did see a suspicious foggy area
+        in the right location but the richness of the Milky Way background made it difficult for
+        me to be sure it was the cluster. I did notice a line of four fairly bright stars in a
+        distinct row involved with my suspect cluster. That would be something to look for again
+        in a larger instrument. This object was also easy to locate because it was in the same
+        distinctive triangle as NGC-7235.</xhtml:p>
+    </notes>
+  </observation>
+
+  <observation>
+    <object xsi:type="starMultipleObjectType">
+      <id catalog="ADS" id="15987"/>
+      <name>Delta Cephei</name>
+      <type>star/multiple</type>
+      <constellation>Cep</constellation>
+      <component designation="A">
+        <magnitude>3.5-4.4</magnitude>
+      </component>
+      <component designation="B">
+        <magnitude>7.5</magnitude>
+      </component>
+      <separation designation-1="A" designation-2="B" distance="41.0"/>
+    </object>
+    <notes>
+      <xhtml:p>I couldn't help but notice this nice double as I scanned around the vicinity. The
+        primary is one of the most famous variable stars in the sky (the prototype Cepheid
+        variable). The secondary was quite far from the primary&#x2014;easily split with my
+        25mm&#x2014;and it had a bluish color making for a striking contrast.</xhtml:p>
+    </notes>
+  </observation>
+
+  <observation>
+    <object>
+      <id catalog="NGC" id="7261"/>
+      <type>cluster/open</type>
+      <constellation>Cep</constellation>
+    </object>
+    <notes>
+      <xhtml:p>This cluster was right near a somewhat bright star. It showed up pretty easily in
+        the 'scope although the rich background made the view a bit tricky. With direct vision
+        the cluster appeared as a dusky patch. Averted vision showed a number of member stars
+        and more fuzz as well. Nice view.</xhtml:p>
+    </notes>
+  </observation>
+
+  <observation>
+    <object>
+      <id catalog="NGC" id="7160"/>
+      <type>cluster/open</type>
+      <constellation>Cep</constellation>
+    </object>
+    <notes>
+      <xhtml:p>This cluster was involved with a fairly bright star so it was easy to find. In
+        the finder 'scope the cluster looked like a fuzzy star. This was not a particular
+        dramatic looking object. Direct vision showed several fairly bright stars collected
+        together. Averted vision showed quite a few background stars as well, although glare
+        from the foreground stars confused things a bit.</xhtml:p>
+    </notes>
+  </observation>
+
+  <observation>
+    <object>
+      <id catalog="NGC" id="7142"/>
+      <type>cluster/open</type>
+      <constellation>Cep</constellation>
+    </object>
+    <notes>
+      <xhtml:p>Nice view. In the 25mm this cluster looked like a ghostly fog with a few sugar
+        sprinkles. There were some fairly bright stars near the object, but I suspect that they
+        were not cluster members. Averted vision showed a few cluster members although mostly it
+        remained diffuse. The cluster seemed fairly large.</xhtml:p>
+    </notes>
+  </observation>
+
+  <observation>
+    <object-group>
+      <object>
+        <id catalog="NGC" id="7129"/>
+        <type>nebula</type>
+        <constellation>Cep</constellation>
+      </object>
+      <object>
+        <id catalog="NGC" id="7133"/>
+        <type>nebula</type>
+        <constellation>Cep</constellation>
+      </object>
+    </object-group>
+    <notes>
+      <xhtml:p>These clusters were plotted in SkyAtlas 2000 as diffuse nebula right near
+        NGC-7142. I didn't expect to see them but to my surprise I was able to see a distinct
+        fuzzy blob in the right location for NGC-7129 using the binoculars! I put the scope on
+        the object and found a small cluster of a few stars surrounded by more fuzz than seems
+        explainable by glare. When I later checked the NGC catalog I noticed that this object is
+        listed as a "cluster + nebula". In retrospect I have to say that I was observing the
+        object. It did not look particularly stunning, however. I didn't see anything that might
+        have been NGC-7133 although I didn't look for it either.</xhtml:p>
+    </notes>
+  </observation>
+
+  <observation>
+    <object>
+      <id catalog="NGC" id="7380"/>
+      <type>cluster/open</type>
+      <constellation>Cep</constellation>
+    </object>
+    <notes>
+      <xhtml:p>This cluster was easy to find because it was right near a relatively bright star.
+        The cluster showed up to some degree in the binoculars although it would have been
+        difficult to confirm it as a cluster there. In the telescope, however, it was obvious.
+        In fact, it was a nice object. Quite a few stars were resolving and there was clearly
+        quite a few more that were not. Despite the rich field, the cluster stood out nicely.
+        The cluster appeared to have a 'V' shape.</xhtml:p>
+    </notes>
+  </observation>
+
+</observation-set>

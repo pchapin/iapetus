@@ -1,0 +1,126 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="../AOML/sky.xsl"?>
+
+<!-- FILE        : sky-2008.xml
+     AUTHOR      : (C) Copyright 2008 by Peter C. Chapin
+     LAST REVISED: 2008
+     SUBJECT     : Sky condition observations for 2008
+-->
+
+<observation-set xmlns="http://vortex.cis.vtc.edu/xml/AOML_0.0"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://vortex.cis.vtc.edu/xml/AOML_0.0 ../AOML/AOML.xsd">
+
+  <location>
+    <value>
+      <lat-long-alt>+43.00-072.50+300</lat-long-alt>
+    </value>
+    <notes>
+      <xhtml:p>Central Vermont, USA</xhtml:p>
+    </notes>
+  </location>
+  <observer>Peter C. Chapin</observer>
+  <notes>
+    <xhtml:p>The temperature and humidity measurements shown here were all made with a La Crosse
+      WS-7078SUF weather station.</xhtml:p>
+  </notes>
+
+  <observation>
+    <localdatetime type="LST" resolution="PT10M">
+      <ISO>2008-01-01T22:00:00</ISO>
+    </localdatetime>
+    <skyconditions>
+      <weather>
+        <temperature>
+          <value units="C">-4.9</value>
+        </temperature>
+        <humidity>
+          <value units="%">90</value>
+        </humidity>
+        <notes>
+          <xhtml:p>Snowing lightly.</xhtml:p>
+        </notes>
+      </weather>
+      <notes>
+        <xhtml:p>The sky is unobservable.</xhtml:p>
+      </notes>
+      <rating>0</rating>
+    </skyconditions>
+  </observation>
+
+  <observation>
+    <localdatetime type="LST" resolution="PT10M">
+      <ISO>2008-01-08T21:30:00</ISO>
+    </localdatetime>
+    <skyconditions>
+      <weather>
+        <temperature>
+          <value units="C">3.3</value>
+        </temperature>
+        <humidity>
+          <value units="%">92</value>
+        </humidity>
+        <notes>
+          <xhtml:p>Clear and unseasonably warm. Some thin clouds along the north horizon but
+            they are very minor.</xhtml:p>
+        </notes>
+      </weather>
+      <notes>
+        <xhtml:p>Conditions are very good. There is no moon so deep sky observing would be
+          effective.</xhtml:p>
+      </notes>
+      <rating>4</rating>
+    </skyconditions>
+  </observation>
+
+  <observation>
+    <localdatetime type="LST" resolution="PT10M">
+      <ISO>2008-01-10T18:25:00</ISO>
+    </localdatetime>
+    <skyconditions>
+      <weather>
+        <temperature>
+          <value units="C">-0.7</value>
+        </temperature>
+        <humidity>
+          <value units="%">73</value>
+        </humidity>
+        <notes>
+          <xhtml:p>Mostly clear but there are thin, partly transparent clouds over much of the
+            sky.</xhtml:p>
+        </notes>
+      </weather>
+      <notes>
+        <xhtml:p>There is good viewing in some directions (particularly in the Auriga region).
+          However, in many parts of the sky the thin clouds cause a very significant degradation
+          of viewing conditions.</xhtml:p>
+      </notes>
+      <rating>3</rating>
+    </skyconditions>
+  </observation>
+
+  <observation>
+    <localdatetime type="LDT" resolution="PT10M">
+      <ISO>2008-10-03T22:05:00</ISO>
+    </localdatetime>
+    <skyconditions>
+      <weather>
+        <temperature>
+          <value units="C">7.9</value>
+        </temperature>
+        <humidity>
+          <value units="%">67</value>
+        </humidity>
+        <notes>
+          <xhtml:p>Mostly cloudy. A few clear spots in the extreme east and west.</xhtml:p>
+        </notes>
+      </weather>
+      <notes>
+        <xhtml:p>Very limited opportunities for viewing.</xhtml:p>
+      </notes>
+      <rating>1</rating>
+    </skyconditions>
+  </observation>
+
+</observation-set>

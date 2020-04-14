@@ -1,0 +1,97 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="../AOML/AOML.xsl"?>
+
+<observation-set xmlns="http://vortex.cis.vtc.edu/xml/AOML_0.0"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://vortex.cis.vtc.edu/xml/AOML_0.0 ../AOML/AOML.xsd">
+
+  <location>
+    <value>
+      <lat-long-alt>+43.00-072.50+300</lat-long-alt>
+    </value>
+    <notes>
+      <xhtml:p>US-Vermont-Tunbridge</xhtml:p>
+    </notes>
+  </location>
+  <observer>Peter C. Chapin</observer>
+  <equipment>
+    <notes>
+      <xhtml:p>Unless otherwise stated, these observations were all made with my 75mm Unitron
+        refractor using the 25mm eyepiece (48x).</xhtml:p>
+    </notes>
+  </equipment>
+  <object>
+    <name>W Her</name>
+    <id catalog="AAVSO" id="1631+37"/>
+    <type>star/variable</type>
+    <constellation>Her</constellation>
+  </object>
+  <notes>
+    <xhtml:p>This variable is a long period, "Mira" variable. Ideally I would observe it once
+      every one or two weeks. Thus I should be able to follow this object despite the weather by
+      working around periods of poor viewing. However, this variable has a range that exceeds
+      what I can see in my telescope so I will loose track of it when it goes through its
+      minimum. Also I can't track it effectively in binoculars (except, perhaps, when it is near
+      maximum).</xhtml:p>
+
+    <xhtml:p>Note that I attempt to record datetime information to the nearest five or ten
+      minutes or so. Although such precision is unnecessary for such a long period variable, the
+      accurate time information will make it easier for you to corrolate these observations with
+      my sky conditions observations (stored separately).</xhtml:p>
+  </notes>
+
+  <observation>
+    <datetime resolution="PT15M">
+      <ISO>2003-06-16T03:10:00Z</ISO>
+    </datetime>
+    <notes>
+      <xhtml:p>This was my first "real" observation of a variable star. I enjoyed making it so
+        hopefully it won't be my last. I used the AAVSO's b-scale chart (downloaded from
+          <xhtml:a href="http://www.aavso.org">www.aavso.org</xhtml:a>). It took me a little
+        time to find the precise location of the variable but I didn't have any particular
+        problems with it. I found it easiest to work from Eta Her. The star's brightness
+        appeared between the 11.3 and 10.7 magnitude comparison stars. It was a bit closer to
+        the 10.7. I am recording my magnitude estimate as <xhtml:b>10.9</xhtml:b>. Note that I
+        needed to use averted vision to clearly see the variable and its comparison stars. At
+        the time that I made the observation there was some moonlight moving into the
+      area.</xhtml:p>
+    </notes>
+  </observation>
+
+  <observation>
+    <datetime resolution="PT15M">
+      <ISO>2003-06-29T03:30:00Z</ISO>
+    </datetime>
+    <notes>
+      <xhtml:p>I found estimating this variable to be quite tricky (due, no doubt to my
+        inexperience with variable stars). I needed to use averted vision to see the variable
+        well and to see the comparison stars. However, because the degree of averted vision can
+        greatly impact the apparent brightness of a star I needed to be sure to view each star
+        using the same amount of averted vision. I found this difficult. At times, for example,
+        the 11.3 comparison star seemed brighter to me than the 10.7 comparison star. Under such
+        conditions estimating a brightness to 0.1 magnitudes seemed hopeless. I can see that
+        doing this well will require practice!</xhtml:p>
+
+      <xhtml:p>In any case W appeared similar to the 10.1 comparison star tonight (perhaps a bit
+        fainter). It was definitely not as bright as the 9.5 comparison star. I am recording my
+        magnitude estimate as <xhtml:b>10.2</xhtml:b> but I feel that it could be substaintially
+        off---perhaps more than 0.5 magnitudes either way.</xhtml:p>
+    </notes>
+  </observation>
+
+  <observation>
+    <datetime resolution="PT05M">
+      <ISO>2003-07-10T03:35:00Z</ISO>
+    </datetime>
+    <notes>
+      <xhtml:p>The variable was definitely brighter than the magnitude 9.5 comparison star,
+        although not a lot brighter. It was not nearly as bright as the magnitude 8.4 or 8.5
+        comparison stars. I am recording my estimate as <xhtml:b>9.3</xhtml:b>.</xhtml:p>
+
+      <xhtml:p>Note that there was a considerable amount of moonlight in the region this
+        evening.</xhtml:p>
+    </notes>
+  </observation>
+
+</observation-set>

@@ -1,0 +1,211 @@
+<?xml version="1.0"?>
+
+<!DOCTYPE observation-set [
+  <!-- Mozilla does not process external entities.
+  <!ENTITY % AOMLentities SYSTEM "AOML.ent">
+  %AOMLentities;
+  -->
+
+<!-- Useful symbols. -->
+<!ENTITY copy     "&#169;">
+
+<!-- Greek. Needed for star names. -->
+<!ENTITY alpha    "&#945;">
+<!ENTITY beta     "&#946;">
+<!ENTITY gamma    "&#947;">
+<!ENTITY delta    "&#948;">
+<!ENTITY epsilon  "&#949;">
+<!ENTITY zeta     "&#950;">
+<!ENTITY eta      "&#951;">
+<!ENTITY theta    "&#952;">
+<!ENTITY iota     "&#953;">
+<!ENTITY kappa    "&#954;">
+<!ENTITY lambda   "&#955;">
+<!ENTITY mu       "&#956;">
+<!ENTITY nu       "&#957;">
+<!ENTITY xi       "&#958;">
+<!ENTITY omicron  "&#959;">
+<!ENTITY pi       "&#960;">
+<!ENTITY rho      "&#961;">
+<!ENTITY sigma    "&#963;">
+<!ENTITY tau      "&#964;">
+<!ENTITY upsilon  "&#965;">
+<!ENTITY phi      "&#966;">
+<!ENTITY chi      "&#967;">
+<!ENTITY psi      "&#968;">
+<!ENTITY omega    "&#969;">
+
+]>
+
+<?xml-stylesheet type="text/xsl" href="../AOML/AOML.xsl"?>
+
+<observation-set xmlns="http://vortex.cis.vtc.edu/xml/AOML_0.0"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://vortex.cis.vtc.edu/xml/AOML_0.0 ../AOML/AOML.xsd">
+
+  <datetime>
+    <date>2002-08-21-04:00</date>
+  </datetime>
+  <location>
+    <value>
+      <lat-long-alt>+43.00-072.50+300</lat-long-alt>
+    </value>
+    <notes>
+      <xhtml:p>US-Vermont-Tunbridge</xhtml:p>
+    </notes>
+  </location>
+  <observer>Peter C. Chapin</observer>
+  <equipment>
+    <notes>
+      <xhtml:p>75mm Unitron refractor with 1200 mm focal length. I used various
+      eyepieces.</xhtml:p>
+    </notes>
+  </equipment>
+  <notes>
+    <xhtml:p>As with last night my plan for tonight was to observe double stars. I focused this
+      evening on Aql using my "SkyAtlas 2000" and Antonin Becvar's "Atlas of the Heavens Catalog
+      1950.0" to prepare my observing plan.</xhtml:p>
+
+    <xhtml:p>The moon was close to full and it washed out a significant amount of the sky. The
+      air was fairly clear and free of haze, however. There were a few clouds now and then that
+      caused some problems, but they could be worked around. The seeing was good, but not as
+      good as last night (perhaps this was because I was observing objects just over the roof of
+      my house). Stellar images appeared steady at medium magnification but showed a lot of
+      distortions at extreme magnification ("extreme" means 200x with my 75mm
+    Unitron).</xhtml:p>
+  </notes>
+
+  <observation>
+    <object xsi:type="starMultipleObjectType">
+      <id catalog="ADS" id="11046"/>
+      <name>70 Oph</name>
+      <type>star/multiple</type>
+      <constellation>Oph</constellation>
+      <component designation="A">
+        <magnitude>4.3</magnitude>
+      </component>
+      <component designation="B">
+        <magnitude>6.0</magnitude>
+      </component>
+      <separation designation-1="A" designation-2="B" distance="4.6"/>
+    </object>
+    <notes>
+      <xhtml:p>This double was easily split. I could barely make out the secondary using the
+        25mm but it showed up without any problems at higher magnification. I liked the view
+        with the 12.5mm best. The secondary is quite a bit fainter than primary. Overall this
+        was an Interesting double.</xhtml:p>
+    </notes>
+  </observation>
+
+  <observation>
+    <object xsi:type="starMultipleObjectType">
+      <id catalog="ADS" id="11483"/>
+      <type>star/multiple</type>
+      <constellation>Her</constellation>
+      <component designation="A">
+        <magnitude>6.8</magnitude>
+      </component>
+      <component designation="B">
+        <magnitude>7.0</magnitude>
+      </component>
+      <separation designation-1="A" designation-2="B" distance="1.8"/>
+    </object>
+    <notes>
+      <xhtml:p>I was unable to resolve this double. Although this pair is quite close, the
+        nearly equal magnitudes made it seem approachable. I found the double surprisingly easy
+        to locate (work from Aql). I examined the star closely at all magnifications. With the
+        6mm (200x) I got a sense of the star being oblong but I can't say that I was able to
+        resolve it. The stars appear rather faint with direct vision. It might be easier to
+        resolve on a darker night.</xhtml:p>
+    </notes>
+  </observation>
+
+  <observation>
+    <object xsi:type="starMultipleObjectType">
+      <name>11 Aql</name>
+      <type>star/multiple</type>
+      <constellation>Aql</constellation>
+      <component designation="A">
+        <magnitude>5.4</magnitude>
+      </component>
+      <component designation="B">
+        <magnitude>9.5</magnitude>
+      </component>
+      <separation designation-1="A" designation-2="B" distance="16.2"/>
+    </object>
+    <notes>
+      <xhtml:p>I was able to resolve this one with some difficulty due to the brightness
+        difference. Interestingly I got the best view with my low power eyepiece (25mm). Direct
+        vision focused the stars nicely and the faint secondary was still visible resulting in a
+        rather satisfying view. The primary didn't create an excessive amount of glare under
+        those conditions. Averted vision showed the secondary more brightly, of course, but also
+        increased the glare.</xhtml:p>
+    </notes>
+  </observation>
+
+  <observation>
+    <object xsi:type="starMultipleObjectType">
+      <name>15 Aql</name>
+      <type>star/multiple</type>
+      <constellation>Aql</constellation>
+      <component designation="A">
+        <magnitude>5.5</magnitude>
+      </component>
+      <component designation="B">
+        <magnitude>7.2</magnitude>
+      </component>
+      <separation designation-1="A" designation-2="B" distance="38.1"/>
+    </object>
+    <notes>
+      <xhtml:p>This double was very easy in the 25mm eyepiece. I could even resolve it in my 8x
+        finder. Actually I found the finder view rather nice. In the scope the stars were almost
+        too far apart to be interesting. There wasn't any color contrast that I could
+      notice.</xhtml:p>
+    </notes>
+  </observation>
+
+  <observation>
+    <object xsi:type="starMultipleObjectType">
+      <id catalog="ADS" id="12962"/>
+      <name>&pi; Aql</name>
+      <type>star/multiple</type>
+      <constellation>Aql</constellation>
+      <component designation="A">
+        <magnitude>6.2</magnitude>
+      </component>
+      <component designation="B">
+        <magnitude>6.8</magnitude>
+      </component>
+      <separation designation-1="A" designation-2="B" distance="1.5"/>
+    </object>
+    <notes>
+      <xhtml:p>This double is considered a test for a 75mm telescope. I have split it at times
+        in the past however I was unable to do so this night. I studied the star at all higher
+        magnifications. In the occasional moments of good seeing I got the impression that it
+        might be resolving, but I couldn't confirm that.</xhtml:p>
+    </notes>
+  </observation>
+
+  <observation>
+    <object xsi:type="starMultipleObjectType">
+      <name>23 Aql</name>
+      <type>star/multiple</type>
+      <constellation>Aql</constellation>
+      <component designation="A">
+        <magnitude>5.3</magnitude>
+      </component>
+      <component designation="B">
+        <magnitude>9.5</magnitude>
+      </component>
+      <separation designation-1="A" designation-2="B" distance="3.4"/>
+    </object>
+    <notes>
+      <xhtml:p>Surprisingly I was able to resolve this double. I did find it tricky, however.
+        The secondary looked almost like an artifact in the diffraction rings of the primary.
+        However, there was really no mistaking it. The secondary was clearly visible. I got a
+        good view with the 9mm eyepiece.</xhtml:p>
+    </notes>
+  </observation>
+
+</observation-set>

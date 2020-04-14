@@ -1,0 +1,258 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="../AOML/sky.xsl"?>
+<!-- FILE        : sky-2006.xml
+     AUTHOR      : (C) Copyright 2006 by Peter C. Chapin
+     SUBJECT     : Sky condition observations for 2006
+-->
+<observation-set xmlns="http://vortex.cis.vtc.edu/xml/AOML_0.0"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://vortex.cis.vtc.edu/xml/AOML_0.0 ../AOML/AOML.xsd">
+
+  <location>
+    <value>
+      <lat-long-alt>+43.00-072.50+300</lat-long-alt>
+    </value>
+    <notes>
+      <xhtml:p>Central Vermont, USA</xhtml:p>
+    </notes>
+  </location>
+  <observer>Peter C. Chapin</observer>
+  <notes>
+    <xhtml:p>The temperature and humidity measurements shown here were all made with a La Crosse
+      WS-7078SUF weather station.</xhtml:p>
+  </notes>
+
+  <observation>
+    <localdatetime type="LST" resolution="PT15M">
+      <ISO>2006-01-02T20:00:00</ISO>
+    </localdatetime>
+
+    <skyconditions>
+      <weather>
+        <temperature>
+          <value units="C">-2.9</value>
+        </temperature>
+        <humidity>
+          <value units="%">89</value>
+        </humidity>
+        <notes>
+          <xhtml:p>Thin clouds (or a thick haze) covers the sky uniformly.</xhtml:p>
+        </notes>
+      </weather>
+
+      <notes>
+        <xhtml:p>Only the brightest stars are visible.</xhtml:p>
+      </notes>
+      <rating>1</rating>
+    </skyconditions>
+  </observation>
+
+  <observation>
+    <localdatetime type="LST" resolution="PT15M">
+      <ISO>2006-01-03T23:00:00</ISO>
+    </localdatetime>
+
+    <skyconditions>
+      <weather>
+        <temperature>
+          <value units="C">-6.1</value>
+        </temperature>
+        <humidity>
+          <value units="%">88</value>
+        </humidity>
+        <notes>
+          <xhtml:p>Thin clouds (or a thick haze) covers the sky uniformly. Conditions are almost
+            identical to those of last night.</xhtml:p>
+        </notes>
+      </weather>
+
+      <notes>
+        <xhtml:p>Only the brightest stars are visible.</xhtml:p>
+      </notes>
+      <rating>1</rating>
+    </skyconditions>
+  </observation>
+
+  <observation>
+    <localdatetime type="LST" resolution="PT15M">
+      <ISO>2006-01-04T23:20:00</ISO>
+    </localdatetime>
+
+    <skyconditions>
+      <weather>
+        <temperature>
+          <value units="C">-3.6</value>
+        </temperature>
+        <humidity>
+          <value units="%">80</value>
+        </humidity>
+        <notes>
+          <xhtml:p>It is completely cloudy.</xhtml:p>
+        </notes>
+      </weather>
+
+      <notes>
+        <xhtml:p>The sky is unobservable.</xhtml:p>
+      </notes>
+      <rating>0</rating>
+    </skyconditions>
+  </observation>
+
+  <observation>
+    <localdatetime type="LST" resolution="PT15M">
+      <ISO>2006-01-05T23:45:00</ISO>
+    </localdatetime>
+
+    <skyconditions>
+      <weather>
+        <temperature>
+          <value units="C">-1.1</value>
+        </temperature>
+        <humidity>
+          <value units="%">91</value>
+        </humidity>
+        <notes>
+          <xhtml:p>It is completely cloudy.</xhtml:p>
+        </notes>
+      </weather>
+
+      <notes>
+        <xhtml:p>The sky is unobservable.</xhtml:p>
+      </notes>
+      <rating>0</rating>
+    </skyconditions>
+  </observation>
+
+  <observation>
+    <localdatetime type="LST" resolution="PT05M">
+      <ISO>2006-01-07T21:10:00</ISO>
+    </localdatetime>
+
+    <skyconditions>
+      <weather>
+        <temperature>
+          <value units="C">-10.6</value>
+        </temperature>
+        <humidity>
+          <value units="%">84</value>
+        </humidity>
+        <notes>
+          <xhtml:p>Clouds cover almost the entire sky.</xhtml:p>
+        </notes>
+      </weather>
+
+      <notes>
+        <xhtml:p>The sky is unobservable. The first quarter moon is, at times, barely visible as
+          a shape through the clouds. However, mostly even the moon can not be seen.</xhtml:p>
+      </notes>
+      <rating>0</rating>
+    </skyconditions>
+  </observation>
+
+  <observation>
+    <localdatetime type="LST" resolution="PT10M">
+      <ISO>2006-01-08T22:55:00</ISO>
+    </localdatetime>
+
+    <skyconditions>
+      <weather>
+        <temperature>
+          <value units="C">-8.3</value>
+        </temperature>
+        <humidity>
+          <value units="%">87</value>
+        </humidity>
+        <notes>
+          <xhtml:p>Thin clouds over entire sky.</xhtml:p>
+        </notes>
+      </weather>
+
+      <notes>
+        <xhtml:p>The moon is visible as a fuzzy blob. No stars are visible. It is possible that
+          some features on the moon could be observed.</xhtml:p>
+      </notes>
+      <rating>1</rating>
+    </skyconditions>
+  </observation>
+
+  <observation>
+    <localdatetime type="LST" resolution="PT10M">
+      <ISO>2006-01-10T20:35:00</ISO>
+    </localdatetime>
+
+    <skyconditions>
+      <weather>
+        <temperature>
+          <value units="C">-0.6</value>
+        </temperature>
+        <humidity>
+          <value units="%">76</value>
+        </humidity>
+        <notes>
+          <xhtml:p>Partly cloudy. The clouds cover the whole sky but there are gaps between the
+            clouds.</xhtml:p>
+        </notes>
+      </weather>
+
+      <notes>
+        <xhtml:p>The moon is bright and observable. However, there are too many clouds around to
+          observe much else.</xhtml:p>
+      </notes>
+      <rating>2</rating>
+    </skyconditions>
+  </observation>
+
+  <observation>
+    <localdatetime type="LST" resolution="PT10M">
+      <ISO>2006-01-11T21:10:00</ISO>
+    </localdatetime>
+
+    <skyconditions>
+      <weather>
+        <temperature>
+          <value units="C">1.8</value>
+        </temperature>
+        <humidity>
+          <value units="%">90</value>
+        </humidity>
+        <notes>
+          <xhtml:p>The sky is completely cloudy and it is raining.</xhtml:p>
+        </notes>
+      </weather>
+
+      <notes>
+        <xhtml:p>The sky is unobservable.</xhtml:p>
+      </notes>
+      <rating>0</rating>
+    </skyconditions>
+  </observation>
+
+  <observation>
+    <localdatetime type="LST" resolution="PT10M">
+      <ISO>2006-01-16T20:00:00</ISO>
+    </localdatetime>
+
+    <skyconditions>
+      <weather>
+        <temperature>
+          <value units="C">-11.6</value>
+        </temperature>
+        <humidity>
+          <value units="%">81</value>
+        </humidity>
+        <notes>
+          <xhtml:p>The sky is clear and cold. There are no clouds to be seen anywhere.</xhtml:p>
+        </notes>
+      </weather>
+
+      <notes>
+        <xhtml:p>Conditions are generally quite good. The waning moon is just starting to peek
+          above the horizon and it is causing considerable sky glow to the east. However, the
+          rest of the sky is fairly dark and many types of objects could be observed.</xhtml:p>
+      </notes>
+      <rating>4</rating>
+    </skyconditions>
+  </observation>
+
+</observation-set>

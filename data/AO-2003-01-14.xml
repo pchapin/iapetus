@@ -1,0 +1,134 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="../AOML/AOML.xsl"?>
+
+<observation-set xmlns="http://vortex.cis.vtc.edu/xml/AOML_0.0"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://vortex.cis.vtc.edu/xml/AOML_0.0 ../AOML/AOML.xsd">
+
+  <datetime resolution="PT30M">
+    <ISO>2003-01-14T05:30:00-05:00</ISO>
+  </datetime>
+  <location>
+    <value>
+      <lat-long-alt>+43.00-072.50+300</lat-long-alt>
+    </value>
+    <notes>
+      <xhtml:p>US-Vermont-Tunbridge</xhtml:p>
+    </notes>
+  </location>
+  <observer>Peter C. Chapin</observer>
+  <equipment>
+    <notes>
+      <xhtml:p>7x50 binoculars</xhtml:p>
+    </notes>
+  </equipment>
+  <notes>
+    <xhtml:p>I happened to wake up early this morning and I went outside to take advantage of
+      the first good night since the new year. I was outside at 5:30am and the sky was still
+      quite dark with little signs of twilight. It was perfectly clear and rather cold; the
+      temperature was below -12C. I used my trusty 7x50 binoculars as my primary observing
+      instrument and I stayed outside for only about 20 minutes.</xhtml:p>
+
+    <xhtml:p>Venus was just above the southeastern horizon. It appeared very bright against the
+      dark sky background. In my binoculars I got a sense of a phase but I wasn't able to see
+      that very clearly (largely due to glare). I did notice that Venus was casting shadows
+      against the snow. They were particularly noticeable if I moved my arms; the motion made
+      the subtle effect easier to pick up.</xhtml:p>
+
+    <xhtml:p>Mars was near Venus but didn't look very impressive in comparison. It's clearly on
+      the far side of its orbit and relatively faint for Mars. At first I mistook it for
+      Antares. Jupiter was well up toward the west. It's disk and two moons were readily visible
+      in my binoculars. West isn't my best direction but the planet would have been very
+      observable to someone with a decent west view. Saturn was not visible. Apparently it had
+      just set.</xhtml:p>
+  </notes>
+
+  <observation>
+    <object>
+      <id catalog="M" id="44"/>
+      <name>Beehive Cluster</name>
+      <type>cluster/open</type>
+      <constellation>Cnc</constellation>
+    </object>
+    <notes>
+      <xhtml:p>Very nice in the binoculars. It seemed well resolved with most, if not all, stars
+        visible. However, the low power kept the cluster well compacted. With the naked eye M-44
+        appeared as a bright fuzzy spot not far from Jupiter, making for an interesting
+        view.</xhtml:p>
+    </notes>
+  </observation>
+
+  <observation>
+    <object>
+      <id catalog="M" id="67"/>
+      <type>cluster/open</type>
+      <constellation>Cnc</constellation>
+    </object>
+    <notes>
+      <xhtml:p>Easily visible in the binoculars and easily found by just sweeping to the "lower
+        left" of M-44. The view was very pleasing; I don't recall M-67 being quite so nice in
+        binoculars before.</xhtml:p>
+    </notes>
+  </observation>
+
+  <observation>
+    <object>
+      <id catalog="M" id="13"/>
+      <type>cluster/globular</type>
+      <constellation>Her</constellation>
+    </object>
+    <notes>
+      <xhtml:p>Easy and bright in the binoculars. It's location between two other fairly bright
+        stars gave a pleasing effect.</xhtml:p>
+    </notes>
+  </observation>
+
+  <observation>
+    <object>
+      <id catalog="M" id="92"/>
+      <type>cluster/globular</type>
+      <constellation>Her</constellation>
+    </object>
+    <notes>
+      <xhtml:p>Easy and bright in the binoculars. This cluster was smaller and more condensed
+        looking than M-13 and could be passed over as a star in such a low power instrument. I
+        had to carefully adjust the focus of my binoculars before I could be sure I was seeing
+        it.</xhtml:p>
+    </notes>
+  </observation>
+
+  <observation>
+    <object>
+      <id catalog="M" id="5"/>
+      <type>cluster/globular</type>
+      <constellation>Ser</constellation>
+    </object>
+    <notes>
+      <xhtml:p>This cluster seemed very similar is size and brightness to M-13 to me. It's an
+        excellent object. While I was observing M-5 a satellite crossed the field of view,
+        passing rather close to the cluster. It was an unexpected treat.</xhtml:p>
+    </notes>
+  </observation>
+
+  <observation>
+    <object-group>
+      <object>
+        <id catalog="M" id="10"/>
+        <type>cluster/globular</type>
+        <constellation>Oph</constellation>
+      </object>
+      <object>
+        <id catalog="M" id="12"/>
+        <type>cluster/globular</type>
+        <constellation>Oph</constellation>
+      </object>
+    </object-group>
+    <notes>
+      <xhtml:p>Readily visible in the binoculars but not nearly as bright as the other globular
+        clusters I already observed this morning. Both objects were comfortably visible in the
+        same field of view making for an interesting view.</xhtml:p>
+    </notes>
+  </observation>
+
+</observation-set>

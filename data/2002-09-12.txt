@@ -1,0 +1,149 @@
+
+Evening of Thursday, September 12, 2002
+
+Tonight was a meeting of the VTC Astronomy Club. Rob, Ed, and I
+attended. We spent some time on club business (such as the budget) and
+then we reviewed the club's equipment. I'm impressed by the club's
+inventory and look forward to taking advantage of some of the club's
+equipment in the months ahead.
+
+Since the sky was good we took out the club's 8" Dobsonian along with
+two pairs of 10x50 binoculars. We observed from the entrance to the VTC
+orchard just across from the dorms (not the lower entrance off the South
+Randolph Road). The observations that follow, unless otherwise noted,
+were all made with the 8" Dob using a 25mm plossel eyepiece (48x). In
+some cases we also used a 9mm eyepiece (133x). The Dob had a f.l. of
+1200mm and a speed of f/6).
+
+The sky was clear and reasonably dark. The moon had largely set by the
+time we got outside but the lights from VTC did cause noticable light
+pollution at our observing site. Nevertheless the trees did offer some
+protection and the limiting magnitude was >5 based on the naked eye
+observability of certain stars in Cyg. There was significant degradation
+of the sky conditions near the horizon. (A formal sky conditions report
+is at the end of this write-up).
+
+We looked at several deep sky objects. I did not record our observations
+formally so the description that follows is from memory (write-up about
+24 hours afterwards).
+
+M31, M32, NGC-205 (And). We first put the 'scope on the Andromeda
+Galaxy. The view was most impressive. M31 was very bright, of course.
+M32 appeared as a large bright fuzzy star. It looked very circular.
+NGC-205 was fainter but still easily seen. The oblong shape of NGC-205
+was clear. We were able to readily get the core of M31 in the same field
+of view as NGC-205 resulting in a most interesting view. I spent a
+little time scanning for some of the brighter features in M31's outer
+arms but I didn't see anything obvious. I'm not sure how large a scope
+is necessary to observe those features. It would probably have also
+helped if I had known better where to look.
+
+NGC-7789 (Cas). This has always been one of my favorite clusters and I
+looked forward to seeing it in the Dob. Unlike the view in my 75mm, the
+cluster appeared fully (or almost fully) resolved. It was quite rich and
+the "dark lane" that I mentioned in previous observations was plainly
+visible. To be honest I almost prefer the partially resolved look that
+I'm used to. The Dob makes the cluster seem less "mysterious" somehow.
+
+M2 (Aqr). This globular cluster was quite interesting in the Dob. It was
+bright and obvious but did not show any real signs of resolving using
+the 25mm eyepiece. However, in the 9mm I was able to make out a few
+member stars; the cluster had a generally granular appearance.
+Altogether a nice object.
+
+M15 (Peg). This globular cluster also gave an impressive view. It seemed
+easier to resolve. Some stars were visible with the 25mm and the 9mm
+showed many. The cluster looked like a snowball in space.
+
+M71 (Sge). I was most impressed with this object. M71 is in a limbo
+between open clusters and globular clusters and it made a good showing
+in the Dob. The rich Milky Way field enhanced the view yet despite that
+the cluster stood out clearly from the Milky Way background. It was only
+partially resolved. Although there were many member starts visible, the
+core of the cluster remained a foggy mist. 
+
+M57 (Lyr). The Ring Nebula. The Dob showed the doughnut shape clearly
+(especially with averted vision). The best view was with the 9mm. We
+noticed that the ring was not perfectly circular but rather somewhat
+oblong. A small star was clearly visible just outside the ring. I looked
+for the central star but saw nothing (I wasn't expecting to).
+
+M27 (Vul). The Dumbell Nebula. Amazingly bright in the Dob. We were able
+to make out a "ragged" edge to the nebula although the central portions
+of the object seemed relatively featureless.
+
+M33 (Tri). This face-on galaxy was surprisingly difficult to see in the
+Dob. Although it showed up easily enough, it was diffuse and less
+interesting than I had hoped. The low altitude didn't help; M33 was
+difficult to make out in the binoculars tonight. I look forward to
+studying this object under more favorable skys later in the season.
+
+NGC-884, NGC-869 (Per). The double cluster. A beautiful view in the Dob!
+Both clusters fit comfortably in the same field and the richess of the
+view was very striking. An impressive object.
+
+All in all it was a great night. This is the first time I've ever used a
+Dobsonian and I rather liked it. The finder on the club's Dob was broken
+from an earlier mishap and we ended up taping it together tonight. That
+made it a bit difficult to align it properly but with a little practice
+I was able to locate objects with it reasonably well. I found the 133x
+magnification to be a bit too high for the Dob... not due to limitations
+of the scope's optics but rather due to the scope's mounting. The Dob
+has no slow motions so the fine positioning necessary at the higher
+magnifications was tricky (but possible). Also the lack of an equatorial
+mounting (not to mention clock drive) was more of a problem at the
+higher magnification as well. Finally I had some concerns that there was
+light loss with the 25mm Plossel eyepiece. Optically the eyepiece seemed
+fine, but the large exit pupil made it look as if some of the Dob's
+collected light would be spilling out to the side of the observer's
+eyes. For very serious deep sky work a different eyepiece might be more
+suitable (not sure).
+
+Overall, I found using the Dob a pleasure. It was easy and simple to
+deal with and the views were great. When I aligned the finder on Altair
+I got very sharp, well formed images (although I admit that I only used
+the 48x magnification).
+
+Formal sky conditions follow:
+
+<observation>
+  <datetime format="ISO" timezone="EDT">2002-09-12:22:00</datetime>
+  <location>
+    <notes>Vermont Technical College. "Upper" entrance to the orchard
+           across the street from the dorms.</notes>
+  </location>
+  <observer>Peter, Rob, Ed</observer>
+
+  <sky-conditions>
+    <weather>
+      <notes>Cool, but not excessively cold. Observing without a coat
+             was acceptable although perhaps a touch chilly. There were
+             no clouds at the beginning of the session but some started
+             to move in towards the end of the session (just past
+             10:00pm EDT).</notes>
+    </weather>
+
+    <limiting-mag>
+      <value method="EST">5</value>
+      <notes>The Milky Way was visible but not as intensely as I've seen
+             it. Fifth magnitude stars in Cyg visible with averted
+             vision.</notes>
+    </limiting-mag>
+    <light-pollution>
+      <notes>The lights of VTC caused some washing out of the sky,
+             particularly to the north. There was no real light
+             pollution to the south or east (the west was blocked by
+             trees).</notes>
+    </light-pollution>
+    <moon>
+      <notes>The waxing crescent moon was setting. It did not cause any
+             significant problems.</notes>
+    </moon>
+
+    <notes>A good night. Despite the proximity of VTC's lights, the sky
+           conditions were still decent for deep sky objects. The site
+           is largely protected from VTC by a row of trees and that
+           helps considerably.</notes>
+
+  </sky-conditions>
+</observation>

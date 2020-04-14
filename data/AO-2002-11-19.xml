@@ -1,0 +1,62 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="../AOML/AOML.xsl"?>
+
+<observation-set xmlns="http://vortex.cis.vtc.edu/xml/AOML_0.0"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://vortex.cis.vtc.edu/xml/AOML_0.0 ../AOML/AOML.xsd">
+
+  <localdatetimerange>
+    <start type="LST">
+      <ISO>2002-11-19T04:45:00</ISO>
+    </start>
+    <end type="LST">
+      <ISO>2002-11-19T05:15:00</ISO>
+    </end>
+  </localdatetimerange>
+  <location>
+    <value>
+      <lat-long-alt>+43.00-072.50+300</lat-long-alt>
+    </value>
+    <notes>
+      <xhtml:p>US-Vermont-Tunbridge</xhtml:p>
+    </notes>
+  </location>
+  <observer>Peter C. Chapin</observer>
+  <equipment>
+    <notes>
+      <xhtml:p>I observed with my unaided eyes tonight.</xhtml:p>
+    </notes>
+  </equipment>
+  <notes>
+    <xhtml:p>The Leonids!</xhtml:p>
+
+    <xhtml:p>The sky conditions this morning were far from ideal. There was a full moon in the
+      West and thin clouds covering most of the sky. The moon illuminated the clouds and washed
+      out the sky background most effectively. In many parts of the sky only the major stars
+      were visible although there were some relatively clear patches where the limiting
+      magnitude might have been as good as 4<xhtml:sup>th</xhtml:sup>. The moon was rather far
+      from the Leonid radiant (100 degrees?) and that was helpful. The temperature was well
+      below freezing.</xhtml:p>
+
+    <xhtml:p>I estimated that I saw somewhat more than one Leonid per minute. I'm guessing that
+      I observed a rate of 100 per hour. I did not do any kind of formal count, however.
+      Considering the conditions the shower was quite active although I doubt if the ZHR was
+      several thousand per hour as some had predicted for this time.</xhtml:p>
+
+    <xhtml:p>As I observed last year, some of the Leonids were rather faint and some were quite
+      bright. This year I saw more bright ones than faint ones due, no doubt, to the sky
+      conditions. On one occasion I happened to be looking directly at a rather bright Leonid
+      as it flashed by. It was considerably brighter than Jupiter (conveniently placed in Leo as
+      a comparison "star"). I'd estimate the meteor at magnitude -4. On another occasion, I was
+      looking away from the meteor, but I knew a bright one had just happened because I could
+      see the snow light up around me. When I turned I saw a thick "smoke trail" glowing
+      brightly for a few seconds. It was located near the moon and may have been glowing, partly
+      at least, from reflected moonlight.</xhtml:p>
+
+    <xhtml:p>Overall it was a good show compared to most meteor showers, but not as impressive
+      as what I observed last year and certainly not a meteor "storm".</xhtml:p>
+
+  </notes>
+
+</observation-set>
