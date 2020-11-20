@@ -25,10 +25,10 @@ need a recent version of the GNAT Ada compiler, GPS, and the AWS web server libr
 project src/iapetus.gpr. The executable will be in src/build/iapetus.
 
 Place your personal observations in a folder named 'data' as a sibling of the source tree. Use
-'index.html' as the index file. Use '.xht' as the extension for XHTML documents. If you include
-any AOML marked up documents, check out the AOML repository into an AOML folder that is also a
-sibling of the source tree (and thus of the data folder). Specify the style sheet as
-'../AOML/AOML.xsl'. You might want to do the same thing for AEML.xsl and sky.xsl as well. Note
+'index.html' as the index file. Use '.xhtml' as the extension for XHTML documents. If you
+include any AOML marked up documents, check out the AOML repository into an AOML folder that is
+also a sibling of the source tree (and thus of the data folder). Specify the style sheet as
+'../AOML/AOML.xsl'. You might want to do the same thing for events.xsl and sky.xsl as well. Note
 that some of this hackery will likely be removed in the future (Iapetus will be programmed to
 search the AOML folder for style sheets automatically).
 
