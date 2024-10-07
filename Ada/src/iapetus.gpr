@@ -1,0 +1,13 @@
+with "aws";
+
+project Iapetus is
+
+   for Object_Dir use "build";
+   for Main use ("iapetus.adb");
+
+   package Compiler is
+      for Default_Switches ("ada") use ("-gnato", "-fstack-check", "-gnat12", "-gnata", "-g");
+   end Compiler;
+
+end Iapetus;
+
