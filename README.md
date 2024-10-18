@@ -15,9 +15,8 @@ somewhere!
 Setup
 -----
 
-The front-end of Iapetus is written in JavaScript using [|insert appropriate front-end
-technology here|]. The back-end is in PHP to conform to what I have available to me on my
-web-hosting service.
+The front-end of Iapetus is written in JavaScript using React. The back-end is in PHP to conform
+to what I have available to me on my web-hosting service.
 
 There is also an experimental back-end in Ada using the Ada Web Server (AWS). Everything related
 to that back-end is in the `Ada` folder. It is extremely minimal at the moment.
