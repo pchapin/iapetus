@@ -1,0 +1,7 @@
+/* This style sheet contains global styles for the Iapetus frontend. React normally expects
+styles to be imported into the components that use them (or the main JSX file), but this
+stylesheet is an exception due to its global nature.
+
+Modern React style normally discourages the use of global stylesheets, which is why this
+file is currently empty (and it's link element is commented out in the index.html file).
+However, I retain the file here as a placeholder for future additions if desired. */
