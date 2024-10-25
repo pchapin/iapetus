@@ -15,8 +15,8 @@ const IapetusCalendar = () => {
         <Calendar
             value={date}
             onChange={handleDateChange}
-            minDate={new Date(2023, 0, 1)}    // Minimum date: January 1, 2023
-            maxDate={new Date(2024, 11, 31)}  // Maximum date: December 31, 2024
+            minDate={new Date(2020, 0, 1)}
+            maxDate={new Date(2039, 11, 31)}
             showNeighboringMonth={false}
         />
         <p>Selected date: {date.toDateString()}</p>
