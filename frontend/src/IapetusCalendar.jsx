@@ -2,12 +2,13 @@ import React, { useState } from "react";
 import Calendar from "react-calendar";
 import "react-calendar/dist/Calendar.css";
 
-const IapetusCalendar = () => {
+const IapetusCalendar = ({ onChange }) => {
   const [date, setDate] = useState(new Date());
 
   // This handler is trivial for now. It might do more in the future.
   const handleDateChange = (newDate) => {
     setDate(newDate);
+    onChange(newDate);
   };
 
   return (
