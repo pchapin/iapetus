@@ -1,11 +1,12 @@
-const express = require('express');
+import express from 'express';
+
 const app = express();
 const port = 3000;
 
-// Middleware to parse JSON request bodies
+// Middleware to parse JSON request bodies.
 app.use(express.json());
 
-// Sample in-memory "database" (for demonstration purposes)
+// Sample in-memory "database" (for demonstration purposes).
 let items = [
   { id: 1, name: 'Item 1', quantity: 10 },
   { id: 2, name: 'Item 2', quantity: 5 }
@@ -18,7 +19,7 @@ app.get('/api/items', (req, res) => {
 
 // GET: Fetch a single item by ID
 app.get('/api/items/:id', (req, res) => {
-  const item = items.find(i => i.id === parseInt(req.params.id));
+  const item = items.find((i) => i.id === parseInt(req.params.id));
   if (!item) return res.status(404).send('Item not found');
   res.json(item);
 });
@@ -36,17 +37,18 @@ app.post('/api/items', (req, res) => {
 
 // PUT: Update an existing item
 app.put('/api/items/:id', (req, res) => {
-  const item = items.find(i => i.id === parseInt(req.params.id));
+  const item = items.find((i) => i.id === parseInt(req.params.id));
   if (!item) return res.status(404).send('Item not found');
 
-  item.name = req.body.name || item.name;
-  item.quantity = req.body.quantity || item.quantity;
+  // Use the ES2020 nullish coalescing operator to allow 0 as a valid quantity.
+  item.name = req.body.name ?? item.name;
+  item.quantity = req.body.quantity ?? item.quantity;
   res.json(item);
 });
 
 // DELETE: Remove an item by ID
 app.delete('/api/items/:id', (req, res) => {
-  const itemIndex = items.findIndex(i => i.id === parseInt(req.params.id));
+  const itemIndex = items.findIndex((i) => i.id === parseInt(req.params.id));
   if (itemIndex === -1) return res.status(404).send('Item not found');
 
   const deletedItem = items.splice(itemIndex, 1);
