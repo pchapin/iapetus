@@ -1,8 +1,6 @@
 import express from 'express';
 import { MongoClient } from 'mongodb';
-
-//const express = require('express');
-//const {MongoClient} = require('mongodb');
+import cors from 'cors';
 
 const app = express();
 const port = 3000;
@@ -19,6 +17,11 @@ MongoClient.connect(mongoUri).
     }).
     catch(error => console.error('Error connecting to MongoDB:', error));
 
+// Allow requests from the React app's origin
+app.use(cors({
+  origin: 'http://localhost:5173'
+}));
+
 // Define an endpoint to query the database
 app.get('/api/stars', async (req, res) => {
   try {
@@ -31,7 +34,7 @@ app.get('/api/stars', async (req, res) => {
   }
 });
 
-app.listen(PORT, () => {
+app.listen(port, () => {
   console.log(`Server running on http://localhost:${port}`);
 });
 
