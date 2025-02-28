@@ -1,5 +1,12 @@
 
 target
+.bsp
+
+# Metals
+.bloop
+.metals
+metals.sbt
+project/project
 
 # OS-specific
 .DS_Store
