@@ -1,0 +1,3 @@
+This is an Obsidian vault containing notes related to the Iapetus project. These are notes intended to be shared with other (potential) developers. They cover design options, references to review, code snippets, and whatever else feels appropriate to include.
+
+The Obsidian note-taking app stores notes in plain Markdown files. It is possible (even encouraged!) to edit the notes in any text editor without invalidating them in Obsidian. That's one thing that is nice about Obsidian: there is no vendor lock-in.
