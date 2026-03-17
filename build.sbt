@@ -9,9 +9,13 @@ lazy val backend = project.in(file("backend"))
   .dependsOn(common)
   .settings(
     name := "backend",
+    Compile / run / fork := true,
+    Compile / run / javaOptions += s"-Diapetus.root=${(ThisBuild / baseDirectory).value}",
     libraryDependencies ++= Seq(
-      "org.http4s" %% "http4s-ember-server" % "0.23.26",
-      "org.http4s" %% "http4s-dsl" % "0.23.26"
+      "org.http4s" %% "http4s-ember-server" % "0.23.33",
+      "org.http4s" %% "http4s-dsl" % "0.23.33",
+      "org.typelevel" %% "cats-effect" % "3.7.0",
+      "ch.qos.logback" % "logback-classic" % "1.5.32"
     )
   )
 
